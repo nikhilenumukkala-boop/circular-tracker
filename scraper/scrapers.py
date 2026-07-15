@@ -112,7 +112,7 @@ def scrape_sebi(pages=1, delay=0):
             try:
                 if page == 0:
                     r = session.get(SEBI_URL, timeout=30)
-                else:
+                elif attempt < 2:
                     r = session.post(
                         "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
                         data={"nextValue": "1", "next": "n", "search": "", "fromDate": "", "toDate": "",
@@ -120,6 +120,10 @@ def scrape_sebi(pages=1, delay=0):
                               "smid": "0", "ssSubSectionId": "7", "intmId": "-1", "sText": "Legal",
                               "ssText": "Circulars", "smText": "", "doDirect": str(page)},
                         timeout=30)
+                else:
+                    # SEBI's WAF sometimes blocks the pagination POST but not
+                    # GETs — Struts accepts the same params in the query string
+                    r = session.get(SEBI_URL + f"&doDirect={page}&next=n", timeout=30)
                 r.raise_for_status()
                 err = None
                 break
