@@ -37,11 +37,28 @@ Pages serves the static UI.
 
 Site: `https://<your-username>.github.io/circular-tracker/`
 
+## Backfilling the full archives
+
+The 6-hourly job only sees each site's "latest" page. To make search cover
+**all** published circulars, run the **Backfill archive** workflow once
+(Actions tab → Backfill archive → Run workflow):
+
+- **SEBI**: walks the whole Legal → Circulars pagination (~25/page, stops
+  automatically when exhausted).
+- **RBI**: walks the notifications archive month by month — goes back to 1991.
+- **AMFI**: needs no backfill; its circulars page already carries the full
+  archive back to 2003.
+
+Inputs let you limit depth (e.g. `rbi_from_year: 2015`). Requests are spaced
+1s apart to stay polite. Safe to re-run any time — merging is append-only
+with the same dedup as the regular update.
+
 ## Tests (offline, no network)
 
 ```bash
 pip install -r requirements.txt
 python3 tests/test_parsers.py   # scrapers against captured fixtures
+python3 tests/test_backfill.py  # RBI archive month parser
 python3 tests/test_update.py    # data.json merge logic
 ```
 

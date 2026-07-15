@@ -1,0 +1,39 @@
+name: Backfill archive
+
+on:
+  workflow_dispatch:
+    inputs:
+      sebi_pages:
+        description: "Max SEBI listing pages to walk (0 = skip; ~25 circulars/page, stops early when exhausted)"
+        default: "400"
+        required: true
+      rbi_from_year:
+        description: "Earliest RBI year to fetch (0 = skip; archive goes back to 1991)"
+        default: "1991"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python scraper/backfill.py --sebi-pages "${{ inputs.sebi_pages }}" --rbi-from-year "${{ inputs.rbi_from_year }}" --delay 1.0
+      - name: Commit backfilled circulars
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/data.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Backfill archive (SEBI pages: ${{ inputs.sebi_pages }}, RBI from: ${{ inputs.rbi_from_year }})"
+            git push
+          else
+            echo "Nothing new."
+          fi

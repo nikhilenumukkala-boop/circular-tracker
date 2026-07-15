@@ -5,6 +5,7 @@ Each scraper returns a list of dicts:
 """
 import re
 import logging
+import time
 import xml.etree.ElementTree as ET
 from datetime import datetime
 from urllib.parse import urljoin
@@ -98,12 +99,14 @@ def scrape_amfi():
 
 
 # ---------------------------------------------------------------- SEBI
-def scrape_sebi(pages=1):
+def scrape_sebi(pages=1, delay=0):
     """Scrape SEBI circulars listing. pages>1 walks pagination via POST."""
     session = requests.Session()
     session.headers.update(HEADERS)
     items, seen = [], set()
     for page in range(pages):
+        if delay and page:
+            time.sleep(delay)
         if page == 0:
             r = session.get(SEBI_URL, timeout=30)
         else:
