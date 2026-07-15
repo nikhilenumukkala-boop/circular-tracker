@@ -1,9 +1,55 @@
 {
- "last_updated": "2026-07-15T12:05:24.649536+00:00",
- "errors": {
-  "SEBI": "backfill: 530 Server Error: BLOCKED for url: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0"
- },
+ "last_updated": "2026-07-15T14:12:26.887729+00:00",
+ "errors": {},
  "circulars": [
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/186",
+   "title": "Designation of 23 individuals under clause (a) of sub-section (1) and sub-section (2) of section 35 of the Unlawful Activities (Prevention) Act, 1967 and listed in the Fourth Schedule of the Act",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13564&Mode=0",
+   "date": "2026-07-15",
+   "first_seen": "2026-07-15T14:12:26.887729+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/185",
+   "title": "Reserve Bank of India (Urban Cooperative Banks – Credit Facilities) Second Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13563&Mode=0",
+   "date": "2026-07-15",
+   "first_seen": "2026-07-15T14:12:26.887729+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/184",
+   "title": "Reserve Bank of India (All India Financial Institutions – Credit Facilities) Second Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13562&Mode=0",
+   "date": "2026-07-15",
+   "first_seen": "2026-07-15T14:12:26.887729+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/183",
+   "title": "Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Second Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13561&Mode=0",
+   "date": "2026-07-15",
+   "first_seen": "2026-07-15T14:12:26.887729+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/182",
+   "title": "Reserve Bank of India (Small Finance Banks – Credit Facilities) Fourth Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13560&Mode=0",
+   "date": "2026-07-15",
+   "first_seen": "2026-07-15T14:12:26.887729+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/181",
+   "title": "Reserve Bank of India (Commercial Banks – Credit Facilities) Fifth Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13559&Mode=0",
+   "date": "2026-07-15",
+   "first_seen": "2026-07-15T14:12:26.887729+00:00"
+  },
   {
    "source": "RBI",
    "ref_no": null,
