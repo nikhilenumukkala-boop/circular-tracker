@@ -1,7 +1,63 @@
 {
- "last_updated": "2026-07-03T12:10:21.745604+00:00",
+ "last_updated": "2026-07-15T11:19:49.388019+00:00",
  "errors": {},
  "circulars": [
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/179",
+   "title": "Reserve Bank of India (Payments Banks – Governance)  Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13558&Mode=0",
+   "date": "2026-07-14",
+   "first_seen": "2026-07-15T11:19:49.388019+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/180",
+   "title": "Reserve Bank of India (Local Area Banks – Governance)  Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13557&Mode=0",
+   "date": "2026-07-14",
+   "first_seen": "2026-07-15T11:19:49.388019+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/178",
+   "title": "Reserve Bank of India (Small Finance Banks – Governance) Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13556&Mode=0",
+   "date": "2026-07-14",
+   "first_seen": "2026-07-15T11:19:49.388019+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/177",
+   "title": "Reserve Bank of India (Commercial Banks – Governance) Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13555&Mode=0",
+   "date": "2026-07-14",
+   "first_seen": "2026-07-15T11:19:49.388019+00:00"
+  },
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Intraday borrowing facility availed by mutual funds",
+   "url": "https://www.sebi.gov.in/legal/circulars/jul-2026/intraday-borrowing-facility-availed-by-mutual-funds_102762.html",
+   "date": "2026-07-10",
+   "first_seen": "2026-07-15T11:19:49.388019+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/176",
+   "title": "Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Da'esh) & Al-Qaida Sanctions List: Amendment of 1 Entry",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13554&Mode=0",
+   "date": "2026-07-09",
+   "first_seen": "2026-07-15T11:19:49.388019+00:00"
+  },
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Review of norms for utilization of interest or income from IPF of the Depositories",
+   "url": "https://www.sebi.gov.in/legal/circulars/jul-2026/review-of-norms-for-utilization-of-interest-or-income-from-ipf-of-the-depositories_102639.html",
+   "date": "2026-07-07",
+   "first_seen": "2026-07-15T11:19:49.388019+00:00"
+  },
   {
    "source": "SEBI",
    "ref_no": null,
