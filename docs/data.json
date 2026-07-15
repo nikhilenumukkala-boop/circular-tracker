@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-07-15T11:55:44.000951+00:00",
+ "last_updated": "2026-07-15T12:00:04.927053+00:00",
  "errors": {
   "SEBI": "backfill: 530 Server Error: BLOCKED for url: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0"
  },
