@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Circular Tracker — SEBI · RBI · AMFI</title>
+<style>
+  :root {
+    --bg: #f6f7f9; --card: #fff; --ink: #17202a; --muted: #6b7280;
+    --line: #e5e7eb; --accent: #1d4ed8;
+    --amfi: #b45309; --sebi: #1d4ed8; --rbi: #047857;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: -apple-system, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--ink); }
+  .wrap { max-width: 1320px; margin: 0 auto; padding: 24px 16px 80px; }
+  h1 { font-size: 22px; margin: 0; }
+  .sub { color: var(--muted); font-size: 13px; margin: 4px 0 20px; }
+  .bar { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 16px; }
+  input[type=search] { flex: 1; min-width: 220px; padding: 10px 14px; border: 1px solid var(--line); border-radius: 8px; font-size: 15px; background: var(--card); }
+  input[type=search]:focus { outline: 2px solid var(--accent); border-color: transparent; }
+  .cols { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; align-items: start; }
+  @media (max-width: 900px) { .cols { grid-template-columns: 1fr; } }
+  .col-head { display: flex; align-items: center; justify-content: space-between; padding: 10px 12px; border-radius: 10px 10px 0 0; color: #fff; position: sticky; top: 0; z-index: 1; }
+  .col-head.AMFI { background: var(--amfi); } .col-head.SEBI { background: var(--sebi); } .col-head.RBI { background: var(--rbi); }
+  .col-head h2 { font-size: 15px; margin: 0; letter-spacing: .04em; }
+  .col-head .count { font-size: 12px; opacity: .9; }
+  .col-body { background: var(--card); border: 1px solid var(--line); border-top: none; border-radius: 0 0 10px 10px; max-height: 72vh; overflow-y: auto; }
+  .item { padding: 12px 14px; border-bottom: 1px solid var(--line); }
+  .item:last-child { border-bottom: none; }
+  .item a.title { color: var(--ink); font-weight: 600; font-size: 13.5px; text-decoration: none; line-height: 1.4; display: block; }
+  .item a.title:hover { color: var(--accent); text-decoration: underline; }
+  .meta { display: flex; gap: 8px; align-items: center; margin-top: 6px; font-size: 11.5px; color: var(--muted); flex-wrap: wrap; }
+  .new { background: #fde68a; color: #92400e; font-size: 10.5px; font-weight: 700; padding: 1px 7px; border-radius: 4px; }
+  .empty { text-align: center; color: var(--muted); padding: 30px 10px; font-size: 13px; }
+  button.more { width: 100%; padding: 10px; border: none; border-top: 1px dashed var(--line); background: none; color: var(--muted); cursor: pointer; font-size: 13px; }
+  .footer { color: var(--muted); font-size: 12.5px; margin-top: 18px; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+  .banner { background: #dbeafe; border: 1px solid #bfdbfe; color: #1e40af; padding: 10px 14px; border-radius: 8px; font-size: 13.5px; margin-bottom: 14px; }
+  .banner.warn { background: #fef3c7; border-color: #fde68a; color: #92400e; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Circular Tracker</h1>
+  <div class="sub">SEBI · RBI · AMFI — circulars in one place, refreshed automatically every 6h</div>
+  <div id="banners"></div>
+  <div class="bar">
+    <input type="search" id="q" placeholder="Search all circulars… (e.g. nomination, AIF, KYC)">
+  </div>
+  <div class="cols" id="cols"></div>
+  <div class="footer" id="footer"></div>
+</div>
+<script>
+const SOURCES = ["SEBI", "RBI", "AMFI"];
+const PAGE = 30;
+let DATA = null;
+let shown = {};   // source -> number of rows currently shown
+
+function timeAgo(iso) {
+  if (!iso) return "";
+  const s = (Date.now() - new Date(iso).getTime()) / 1000;
+  if (s < 3600) return Math.max(1, Math.floor(s / 60)) + "m ago";
+  if (s < 86400) return Math.floor(s / 3600) + "h ago";
+  return Math.floor(s / 86400) + "d ago";
+}
+
+function esc(s) {
+  return (s || "").replace(/[&<>"']/g, c => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+  })[c]);
+}
+
+const lastVisit = localStorage.getItem("lastVisit");
+localStorage.setItem("lastVisit", new Date().toISOString());
+const isNew = it => lastVisit && it.first_seen > lastVisit;
+
+function matches(it, tokens) {
+  if (!tokens.length) return true;
+  const hay = (it.title + " " + (it.ref_no || "")).toLowerCase();
+  return tokens.every(t => hay.includes(t));
+}
+
+function render() {
+  const tokens = document.getElementById("q").value.toLowerCase().split(/\s+/).filter(Boolean);
+  const cols = document.getElementById("cols");
+  cols.innerHTML = "";
+  for (const src of SOURCES) {
+    const rows = DATA.circulars.filter(c => c.source === src && matches(c, tokens));
+    const n = shown[src] || PAGE;
+    const visible = rows.slice(0, n);
+    const col = document.createElement("div");
+    col.innerHTML = `
+      <div class="col-head ${src}"><h2>${src}</h2>
+        <span class="count">${visible.length}${rows.length > n ? "+" : ""} of ${rows.length}</span></div>
+      <div class="col-body">
+        ${visible.length === 0 ? `<div class="empty">No circulars${tokens.length ? " matching your search" : ""}.</div>` : ""}
+        ${visible.map(it => `
+          <div class="item">
+            <a class="title" href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">${esc(it.title)}</a>
+            <div class="meta">
+              ${it.date ? `<span>${esc(it.date)}</span>` : ""}
+              ${it.ref_no ? `<span>${esc(it.ref_no)}</span>` : ""}
+              ${isNew(it) ? `<span class="new">NEW</span>` : ""}
+              <span title="${esc(it.first_seen)}">indexed ${timeAgo(it.first_seen)}</span>
+            </div>
+          </div>`).join("")}
+        ${rows.length > n ? `<button class="more" data-src="${src}">Load more</button>` : ""}
+      </div>`;
+    cols.appendChild(col);
+  }
+  cols.querySelectorAll("button.more").forEach(b => b.addEventListener("click", () => {
+    shown[b.dataset.src] = (shown[b.dataset.src] || PAGE) + PAGE;
+    render();
+  }));
+}
+
+function renderBanners() {
+  const el = document.getElementById("banners");
+  const parts = [];
+  if (lastVisit) {
+    const n = DATA.circulars.filter(c => c.first_seen > lastVisit).length;
+    if (n > 0) parts.push(`<div class="banner">🔔 ${n} new circular${n > 1 ? "s" : ""} since your last visit</div>`);
+  }
+  const errs = Object.keys(DATA.errors || {});
+  if (errs.length) parts.push(
+    `<div class="banner warn">⚠️ Last update could not reach: ${errs.join(", ")}. Showing previously collected data for ${errs.length > 1 ? "those sources" : "that source"}.</div>`);
+  el.innerHTML = parts.join("");
+}
+
+function renderFooter() {
+  const by = {};
+  for (const c of DATA.circulars) by[c.source] = (by[c.source] || 0) + 1;
+  document.getElementById("footer").innerHTML = `
+    <span>${DATA.circulars.length} circulars indexed — ${SOURCES.map(s => `${s}: ${by[s] || 0}`).join(" · ")}</span>
+    <span>last checked: ${DATA.last_updated ? timeAgo(DATA.last_updated) : "never"}</span>`;
+}
+
+let debounce = null;
+document.getElementById("q").addEventListener("input", () => {
+  clearTimeout(debounce);
+  debounce = setTimeout(() => { shown = {}; render(); }, 200);
+});
+
+fetch("data.json?t=" + Date.now())
+  .then(r => r.json())
+  .then(d => { DATA = d; renderBanners(); render(); renderFooter(); })
+  .catch(() => {
+    document.getElementById("banners").innerHTML =
+      `<div class="banner warn">⚠️ Could not load data.json.</div>`;
+  });
+</script>
+</body>
+</html>

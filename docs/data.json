@@ -1,0 +1,734 @@
+{
+ "last_updated": "2026-07-03T12:10:21.745604+00:00",
+ "errors": {},
+ "circulars": [
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Handling of Client’s Unpaid Securities by Trading Members",
+   "url": "https://www.sebi.gov.in/legal/circulars/jul-2026/handling-of-client-s-unpaid-securities-by-trading-members_102584.html",
+   "date": "2026-07-03",
+   "first_seen": "2026-07-03T12:10:21.745604+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/FMRD/2026-27/407",
+   "title": "Master Direction – Reserve Bank of India (Credit Derivatives) Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13552&Mode=0",
+   "date": "2026-06-25",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Ease of Doing Business – Relaxation in certification requirement for Persons Associated with Investment Advice (PAIA) – Sales and other non-core services",
+   "url": "https://www.sebi.gov.in/legal/circulars/jun-2026/ease-of-doing-business-relaxation-in-certification-requirement-for-persons-associated-with-investment-advice-paia-sales-and-other-non-core-services_102385.html",
+   "date": "2026-06-24",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/175",
+   "title": "Review of Circulars issued under Foreign Exchange Management Act, 1999 (FEMA)",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13551&Mode=0",
+   "date": "2026-06-24",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/174",
+   "title": "Modification of Returns / Reporting requirements under FEMA, 1999",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13550&Mode=0",
+   "date": "2026-06-24",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/173",
+   "title": "Reserve Bank of India (Rural Co-operative Banks - Responsible Business Conduct) Third Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13549&Mode=0",
+   "date": "2026-06-24",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/172",
+   "title": "Reserve Bank of India (Urban Co-operative Banks - Responsible Business Conduct) Third Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13548&Mode=0",
+   "date": "2026-06-24",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/171",
+   "title": "Reserve Bank of India (Regional Rural Banks - Responsible Business Conduct) Third Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13547&Mode=0",
+   "date": "2026-06-24",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/170",
+   "title": "Reserve Bank of India (Local Area Banks - Responsible Business Conduct) Third Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13546&Mode=0",
+   "date": "2026-06-24",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/169",
+   "title": "Reserve Bank of India (Payments Banks - Responsible Business Conduct) Second Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13545&Mode=0",
+   "date": "2026-06-24",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/168",
+   "title": "Reserve Bank of India (Small Finance Banks - Responsible Business Conduct) Third Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13544&Mode=0",
+   "date": "2026-06-24",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Clarification with respect to applicability of the benefit of early pay-in in Commodity Derivatives Segment",
+   "url": "https://www.sebi.gov.in/legal/circulars/jun-2026/clarification-with-respect-to-applicability-of-the-benefit-of-early-pay-in-in-commodity-derivatives-segment_102229.html",
+   "date": "2026-06-19",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Foreign Exchange Management (Deposit) (Sixth Amendment) Regulations, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13553&Mode=0",
+   "date": "2026-06-18",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Guidelines for winding up of AIFs with respect to retention of proceeds and  ‘Inoperative Fund’ status",
+   "url": "https://www.sebi.gov.in/legal/circulars/jun-2026/guidelines-for-winding-up-of-aifs-with-respect-to-retention-of-proceeds-and-inoperative-fund-status_102171.html",
+   "date": "2026-06-16",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Norms for Base Price, Price Bands, Call Auction in pre-open session and Close-out procedure for Exchange Traded Funds (ETFs)",
+   "url": "https://www.sebi.gov.in/legal/circulars/jun-2026/norms-for-base-price-price-bands-call-auction-in-pre-open-session-and-close-out-procedure-for-exchange-traded-funds-etfs-_102121.html",
+   "date": "2026-06-15",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Extension of timelines for compliance with certain provisions of Circular dated  January 02, 2026",
+   "url": "https://www.sebi.gov.in/legal/circulars/jun-2026/extension-of-timelines-for-compliance-with-certain-provisions-of-circular-dated-january-02-2026_102083.html",
+   "date": "2026-06-11",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Ease of doing investments - Modified Norms for Nomination in Demat Accounts and Mutual Fund Folios",
+   "url": "https://www.sebi.gov.in/legal/circulars/may-2026/ease-of-doing-investments-modified-norms-for-nomination-in-demat-accounts-and-mutual-fund-folios_101703.html",
+   "date": "2026-05-29",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Revision of Monthly Cumulative Report (MCR) Format",
+   "url": "https://www.sebi.gov.in/legal/circulars/may-2026/revision-of-monthly-cumulative-report-mcr-format_101522.html",
+   "date": "2026-05-19",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Status of SPVs post conclusion or termination of Concession Agreement",
+   "url": "https://www.sebi.gov.in/legal/circulars/may-2026/status-of-spvs-post-conclusion-or-termination-of-concession-agreement_101467.html",
+   "date": "2026-05-15",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Permitted use of fresh borrowings for InvITs where Net Borrowings exceeds forty-nine percent of the value of InvIT assets",
+   "url": "https://www.sebi.gov.in/legal/circulars/may-2026/permitted-use-of-fresh-borrowings-for-invits-where-net-borrowings-exceeds-forty-nine-percent-of-the-value-of-invit-assets_101465.html",
+   "date": "2026-05-15",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Norms for sharing and usage of price data for educational purposes",
+   "url": "https://www.sebi.gov.in/legal/circulars/may-2026/norms-for-sharing-and-usage-of-price-data-for-educational-purposes_101293.html",
+   "date": "2026-05-08",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Discontinuation of Investor Risk Reduction Access (IRRA) platform",
+   "url": "https://www.sebi.gov.in/legal/circulars/may-2026/discontinuation-of-investor-risk-reduction-access-irra-platform_101300.html",
+   "date": "2026-05-07",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "‘Significant Indices’ under SEBI (Index Providers) Regulations, 2024",
+   "url": "https://www.sebi.gov.in/legal/circulars/may-2026/-significant-indices-under-sebi-index-providers-regulations-2024_101271.html",
+   "date": "2026-05-05",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Advisory on Emerging Advanced Artificial Intelligence (AI) Tools for Vulnerability Detection",
+   "url": "https://www.sebi.gov.in/legal/circulars/may-2026/advisory-on-emerging-advanced-artificial-intelligence-ai-tools-for-vulnerability-detection_101270.html",
+   "date": "2026-05-05",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Fast-Track Mechanism for Processing of Placement Memorandum of AIFs filed with SEBI",
+   "url": "https://www.sebi.gov.in/legal/circulars/apr-2026/fast-track-mechanism-for-processing-of-placement-memorandum-of-aifs-filed-with-sebi_101213.html",
+   "date": "2026-04-30",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Operationalisation of Past Risk and Return Verification Agency (“PaRRVA”)",
+   "url": "https://www.sebi.gov.in/legal/circulars/apr-2026/operationalisation-of-past-risk-and-return-verification-agency-parrva-_101185.html",
+   "date": "2026-04-29",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Extension of timeline for compliance with terms and conditions by  Debenture Trustees for carrying out activities outside the purview of  SEBI",
+   "url": "https://www.sebi.gov.in/legal/circulars/apr-2026/extension-of-timeline-for-compliance-with-terms-and-conditions-by-debenture-trustees-for-carrying-out-activities-outside-the-purview-of-sebi_101152.html",
+   "date": "2026-04-28",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Framework for net settlement of funds for transactions done by Foreign Portfolio Investors (FPIs) in cash market",
+   "url": "https://www.sebi.gov.in/legal/circulars/apr-2026/framework-for-net-settlement-of-funds-for-transactions-done-by-foreign-portfolio-investors-fpis-in-cash-market_101090.html",
+   "date": "2026-04-24",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Review of requirement relating to registration for a Not for Profit Organization on Social Stock Exchange and minimum subscription requirement for issuance of Zero Coupon Zero Principal Instruments",
+   "url": "https://www.sebi.gov.in/legal/circulars/apr-2026/review-of-requirement-relating-to-registration-for-a-not-for-profit-organization-on-social-stock-exchange-and-minimum-subscription-requirement-for-issuance-of-zero-coupon-zero-principal-instruments_100935.html",
+   "date": "2026-04-15",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "NISM Certification for Social Impact Assessors",
+   "url": "https://www.sebi.gov.in/legal/circulars/apr-2026/nism-certification-for-social-impact-assessors_100911.html",
+   "date": "2026-04-13",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Ease of doing business - mechanism for lock-in of pledged shares under SEBI (Issue of Capital and Disclosure Requirements) Regulations, 2018",
+   "url": "https://www.sebi.gov.in/legal/circulars/apr-2026/ease-of-doing-business-mechanism-for-lock-in-of-pledged-shares-under-sebi-issue-of-capital-and-disclosure-requirements-regulations-2018_100826.html",
+   "date": "2026-04-08",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Relaxation from the applicability of SEBI Master Circular for compliance with the provisions of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 on non-compliance with the Minimum Public Shareholding (MPS) requirements",
+   "url": "https://www.sebi.gov.in/legal/circulars/apr-2026/relaxation-from-the-applicability-of-sebi-master-circular-for-compliance-with-the-provisions-of-the-sebi-listing-obligations-and-disclosure-requirements-regulations-2015-on-non-compliance-with-the-_100787.html",
+   "date": "2026-04-07",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "One-time relaxation with respect to validity of SEBI Observations",
+   "url": "https://www.sebi.gov.in/legal/circulars/apr-2026/one-time-relaxation-with-respect-to-validity-of-sebi-observations_100786.html",
+   "date": "2026-04-07",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Clarification regarding eligibility of members of the Institute of Cost Accountants of India to conduct annual audit of Research Analysts",
+   "url": "https://www.sebi.gov.in/legal/circulars/mar-2026/clarification-regarding-eligibility-of-members-of-the-institute-of-cost-accountants-of-india-to-conduct-annual-audit-of-research-analysts_100565.html",
+   "date": "2026-03-25",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Clarification regarding eligibility of members of the Institute of Cost Accountants of India to conduct annual audit of Investment Advisers",
+   "url": "https://www.sebi.gov.in/legal/circulars/mar-2026/clarification-regarding-eligibility-of-members-of-the-institute-of-cost-accountants-of-india-to-conduct-annual-audit-of-investment-advisers_100561.html",
+   "date": "2026-03-25",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Addendum to SEBI Circular on Borrowing by Mutual Funds",
+   "url": "https://www.sebi.gov.in/legal/circulars/mar-2026/addendum-to-sebi-circular-on-borrowing-by-mutual-funds_100560.html",
+   "date": "2026-03-25",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-31/2025-26",
+   "title": "Partial Modification in AMFI Circular No. CIR/ARN-01/02-03 dated Jan 15, 2003, Guidelines for the Registration of Intermediaries",
+   "url": "https://www.amfiindia.com/uploads/CIR_31_dated_31_Dec_2025_5120ecfbe7.pdf",
+   "date": "2025-12-31",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-30/2025-26",
+   "title": "Partial Modification in AMFI Best Practices Guidelines Circular No. CIR/ ARN-25 / 2023-24 dated March 28, 2024, Standard / Centralised Process for Transfer of AUM of one MFD to another MFD and 135/BP/ 106 /2022-23 dated March 21,2023  Revision in the Guidelines on Transfer of AUM from one MF Distributor to another",
+   "url": "https://www.amfiindia.com/uploads/CIR_30_dated_Oct_27_2025_05d7d80e84.pdf",
+   "date": "2025-10-27",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "135/BP/106A/2025-26",
+   "title": "Modification in the Guidelines on Transfer of AUM from one MF Distributor to another Distributor",
+   "url": "https://www.amfiindia.com/uploads/AMFI_Best_Practices_Guidelines_Circular_No_106_A_dt_17_10_2025_2025_26_a791fba2ed.pdf",
+   "date": "2025-10-17",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-29/2025-26",
+   "title": "Registration of MFDs for distribution of Specialized Investment Funds (SIFs)",
+   "url": "https://amfiindia.com/Themes/Theme1/downloads/circulars/AMFICircular_ARN29_31Jul2025.pdf",
+   "date": "2025-07-30",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-28R/2024-25",
+   "title": "Time limit for renewal of ARN & Payment of commission to MFDs on business procured prior to expiry of ARN validity",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/AMFICircular_28R_02Apr2025.pdf",
+   "date": "2025-04-02",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-27/2023-24",
+   "title": "Discontinuation Biometric Process and Mandatory Online registration for AMFI Registration / Grant of ARN",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/AMFICircular_27_17Sep2024.pdf",
+   "date": "2024-09-17",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-26/2023-24",
+   "title": "Advisory regarding Contests run by AMCs and Mutual Fund Distributors for sales promotion",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/AMFICircular26-24Jul2024.pdf",
+   "date": "2024-07-24",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-25/2023-24",
+   "title": "ARN Circular no. 25 - Centralised Process for AUM Transfer from one MFD to another",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/ARNCircular25-CentralisedProcessforAUMTransfer.pdf",
+   "date": "2024-03-28",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-25/2023-24",
+   "title": "Annexure 1a & 1b - Sample of letter to be sent by Transferor MFD to MF clients to inform about change of ARN",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/ARNCircular25_Annexure_1a-1b.pdf",
+   "date": "2024-03-28",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-25/2023-24",
+   "title": "Annexure 1(C ) - Sample of letter to be sent to MF clients of deceased MFD for change of ARN code",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/ARNCircular25_Annexure_1c.pdf",
+   "date": "2024-03-28",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-25/2023-24",
+   "title": "Annexure 2 - Application form for Transfer of AuM to be submitted by Transferor",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/ARNCircular25_Annexure_2.pdf",
+   "date": "2024-03-28",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-25/2023-24",
+   "title": "Annexure 3 - Application for Transfer of AuM - Covering letter to RTAs",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/ARNCircular25_Annexure_3.pdf",
+   "date": "2024-03-28",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-25/2023-24",
+   "title": "Annexure 4 - Declaration be submitted by Transferee MFD",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/ARNCircular25_Annexure4.pdf",
+   "date": "2024-03-28",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-25/2023-24",
+   "title": "Annexure 5 - Application form for Transfer of AuM to be submitted by Nominee & Legal heir of deceased MFD",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/ARNCircular25_Annexure_5.pdf",
+   "date": "2024-03-28",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-25/2023-24",
+   "title": "Annexure 6 - NOC from other legal heirs for transfer of AUM in favour of one of the legal heirs",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/ARNCircular25_Annexure_6.pdf",
+   "date": "2024-03-28",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-25/2023-24",
+   "title": "Annexure 7 - Individual Affidavits to be given by ALL the Legal Heirs",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/ARNCircular25_Annexure_7.pdf",
+   "date": "2024-03-28",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-25/2023-24",
+   "title": "Annexure 8 - Bond of Indemnity furnished jointly by all Legal Heirs for Transfer of AUM without Legal Representation",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/ARNCircular25_Annexure_8.pdf",
+   "date": "2024-03-28",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-25/2023-24",
+   "title": "Annexure 9 - Bank Attestation of Signature & bank ac details of legal heir",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/ARNCircular25_Annexure_9.pdf",
+   "date": "2024-03-28",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-24/2023-24",
+   "title": "Facility / Option to apply for ‘Provisional’ ARN to non-individual entities pending EUIN mapping",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/ARNCircular24-OptiontoapplyforProvisionalARN.pdf",
+   "date": "2024-03-28",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-24/2023-24",
+   "title": "Annexure A - LOU for EUIN mapping subsequently - Individual to Corporate MFD",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/AnnexureA-LOUforEUINmappingsubsequently.pdf",
+   "date": "2024-03-28",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-24/2023-24",
+   "title": "Annexure B - Sample of letter to be sent to MF clients by Individual MFD",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/AnnexureB-SampleLettertoMFclients.pdf",
+   "date": "2024-03-28",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-24/2023-24",
+   "title": "Annexure C - LOU for EUIN mapping subsequently by Co.LLP",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/AnnexureC-LOUforEUINmappingsubsequently.pdf",
+   "date": "2024-03-28",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "135/BP/ 107 /2022-23",
+   "title": "AMCs to accept business only from empanelled Distributors",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/AMFI_BP_Circular-107-dt.04-May-23.pdf",
+   "date": "2023-05-04",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "135/BP/ 106 /2022-23",
+   "title": "Revision in the Guidelines on Transfer of AUM from one MF Distributor to another",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/AMFIBestPracticesGuidelinesCircularNo.106_21.03.2023.pdf",
+   "date": "2023-03-21",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN/23/2022-23",
+   "title": "Time Limit for submission of annual DSC",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/ARNCircular23(25-Jul-22).pdf",
+   "date": "2022-07-25",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-22a/2022-23",
+   "title": "ARN Circular 22a - Revised Code of Conduct for MFDs 2022",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/ARNCircular22a-RevisedCodeofConductforMFDs2022.pdf",
+   "date": "2022-04-07",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-22a/2022-23",
+   "title": "Revised Code of Conduct for Mutual Fund Distributors - April 2022",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/RevisedCodeofConductforMutualFundDistributors-April2022.pdf",
+   "date": "2022-04-07",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ ARN-21/ 2021-22",
+   "title": "Classification of Sole proprietorship for ARN purposes",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/AMFICircularno.21dt30-Mar-22Classificationw.r.t.SoleproprietorshipforARNpurposes.pdf",
+   "date": "2022-03-30",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "135/BP/ 99 /2021-22",
+   "title": "Data Sharing Principles to be followed by AMCs while sharing Unitholders’ Data",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/AMFIBestPracticesGuidelinesCircularNo.99dt.29-Mar-22.pdf",
+   "date": "2022-03-29",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ ARN-20/ 2021-22",
+   "title": "Time limit for renewal of ARN",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/AMFIARNCircular-ReductioningraceperiodforrenewalofARNw.e.f.01-Jul-22.pdf",
+   "date": "2022-03-28",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ ARN-20/ 2021-22",
+   "title": "SEBI Clarification w.r.t. Data feeds in respect of Direct Plan transactions by the Mutual Fund Distributors, Registered Investment Advisers, Portfolio Managers and Stock Brokers",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/SEBIClarificationw.r.t.transactionsunderDirectPlan.PDF",
+   "date": "2022-03-28",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ ARN-20/ 2021-22",
+   "title": "Documentary evidence for having applied to ROC for Name Change",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/DocumentaryevidenceforhavingappliedtoROCforNameChange.docx",
+   "date": "2022-03-28",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ ARN-20/ 2021-22",
+   "title": "Request for Change of Name of MFD - Pursuant to SEBI IA Regulations (Form for Proprietary concerns)",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/RequesttoUpdateChangeinName-Proprietorshipfirm.docx",
+   "date": "2022-03-28",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ ARN-20/ 2021-22",
+   "title": "Request for Change of Name of MFD - Pursuant to SEBI IA Regulations (Form for non individual MFDs other than Proprietary concern)",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/RequestforChangeofNameofMFD-PursuanttoSEBIIARegulations.docx",
+   "date": "2022-03-28",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "AMFI/CIR-19/2020-21",
+   "title": "AMFI GUIDANCE ON MFD NOMENCLATURE(Pursuant to Regulation 3(3) of the SEBI (Investment Advisers) Regulations, 2013)",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/AMFICircular19dated20-Oct-2020_AMFIGUIDANCEONMFDNOMENCLATURE.pdf",
+   "date": "2020-10-20",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "AMFI/CIR-18/2019-20",
+   "title": "AMFI Circular no. CIR-18 dt. 04-Jul-2019 - Time Limit for submission of annual DSC",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/AMFI%20Circular%20no.%20CIR-18%20dt.%2004-Jul-2019%20-%20Time%20Limit%20for%20submission%20of%20annual%20DSC.pdf",
+   "date": "2019-07-04",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "135/BP/ 77/ 2018-19",
+   "title": "Standard Process for Capturing / Updating Email Address and Mobile Number of investors",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/AMFI_BP_Cir_77_dt_20-3-19_Std_Proc_for_Capturing,_Updating_Email%20ID,_Mobile%20No.pdf",
+   "date": "2019-03-20",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "135/BP/ 76/ 2018-19",
+   "title": "Standard Procedure for Tagging Transactions to T-30 / B-30 PIN Codes",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/AMFI_BP_Cir_76_dt.%2020-3-19-Std._Proc._for_Tagging_Trxns_to_T-30,B-30_PIN_Codes.pdf",
+   "date": "2019-03-20",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-17/14-15",
+   "title": "Revised Self Declaration formats",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/cir-arn-17-14-15.pdf",
+   "date": "2014-09-26",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-16/13-14",
+   "title": "AMFI Circular on AMFI Registration for Overseas Distributors",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/arn-reg/Registration_form_for_Overseas_Distributors.pdf",
+   "date": "2013-08-20",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-15/12-13",
+   "title": "AMFI Circular on payment of commission in case of demise of Agent / Distributor",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/CIRARN151213.pdf",
+   "date": "2013-03-28",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-14/12-13",
+   "title": "AMFI Registration / NISM Certification / KYD Compliance for Overseas Distributors",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/CIRARN141213.pdf",
+   "date": "2012-07-13",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-13/11-12",
+   "title": "Unified AMFI Guidelines for AMFI REGISTERED MUTUAL FUND ADVISOR (ARMFA) - Clarification/Modification in respect of Clause no. 5.6 on Declaration of Self Certification (DSC), Clause No. 6.3 a) and 6.3 b) on Suspension of Payment of Commission",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/CIRARN-1311-12.pdf",
+   "date": "2011-10-14",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-12/10-11",
+   "title": "Unified AMFI Guidelines for AMFI REGISTERED MUTUAL FUND ADVISOR (ARMFA) - REVISION IN FORMATS FOR DECLARATION OF SELF CERTIFICATION",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/CIRARN-1210-11.pdf",
+   "date": "2011-03-01",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-11/09-10",
+   "title": "Unified AMFI Guidelines for AMFI REGISTERED MUTUAL FUND ADVISOR (ARMFA) - REVISION IN FORMATS FOR DECLARATION OF SELF CERTIFICATION",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/CIRARN-1109-10.pdf",
+   "date": "2009-08-11",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-10/09-10",
+   "title": "Unified AMFI Guidelines for AMFI REGISTERED MUTUAL FUND ADVISOR (ARMFA) - REVISION IN FORMATS FOR DECLARATION OF SELF CERTIFICATION",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/UnifiedAMFIcircularRevised.pdf",
+   "date": "2009-06-09",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-09/08-09",
+   "title": "Unified AMFI Guidelines for AMFI REGISTERED MUTUAL FUND ADVISOR (ARMFA)",
+   "url": "https://www.amfiindia.com/Themes/Theme1/downloads/circulars/UnifiedAMFIcircular.pdf",
+   "date": "2008-07-18",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-08/06-07",
+   "title": "AMFI Certification",
+   "url": "http://portal.amfiindia.com/spages/amfi-certification.pdf",
+   "date": "2006-11-23",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-07/06-07",
+   "title": "Clarification regarding Self-Certification & Suspension of Payment of Commission",
+   "url": "http://portal.amfiindia.com/spages/clarification-regarding-self-certification-suspension-of-payment-of-commission.pdf",
+   "date": "2006-07-06",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-06/05-06",
+   "title": "Clarification regarding Payment of Brokerage to Intermediaries",
+   "url": "http://portal.amfiindia.com/spages/clarification-regarding-payment-of-brokerage-to-intermediaries.pdf",
+   "date": "2006-03-29",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-05/04-05",
+   "title": "Clarifications regarding Self-Certification by Intermediaries",
+   "url": "http://portal.amfiindia.com/spages/clarifications-regarding-self-certification-by-intermediaries.pdf",
+   "date": "2004-07-16",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-04/03-04",
+   "title": "Clarifications regarding Self-Certification And Nomination Facilities to Agents / Distributors",
+   "url": "http://portal.amfiindia.com/spages/clarifications-regarding-self-certification-and-nomination-facilities-to-agents-distributors.pdf",
+   "date": "2004-01-27",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-03/03-03",
+   "title": "Clarifications regarding payment of brokerage to intermediaries after September 30, 2003",
+   "url": "http://portal.amfiindia.com/spages/clarifications-regarding-payment-of-brokerage-to-intermediaries.pdf",
+   "date": "2003-09-03",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-02/02-03",
+   "title": "Clarifications on the implementation of AMFI Guidelines",
+   "url": "http://portal.amfiindia.com/spages/clarifications-on-the-implementation-of-amfi-guidelines-on-the-code-of-conduct.pdf",
+   "date": "2003-03-31",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-01/02-03",
+   "title": "Guidelines for the Registration of Intermediaries",
+   "url": "http://portal.amfiindia.com/spages/guidelines-for-the-registration-of-intermediaries.pdf",
+   "date": "2003-01-15",
+   "first_seen": "2026-07-02T07:21:34.890567+00:00"
+  }
+ ]
+}
