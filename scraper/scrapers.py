@@ -107,17 +107,30 @@ def scrape_sebi(pages=1, delay=0):
     for page in range(pages):
         if delay and page:
             time.sleep(delay)
-        if page == 0:
-            r = session.get(SEBI_URL, timeout=30)
-        else:
-            r = session.post(
-                "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
-                data={"nextValue": "1", "next": "n", "search": "", "fromDate": "", "toDate": "",
-                      "fromYear": "", "toYear": "", "deptId": "-1", "sid": "1", "ssid": "7",
-                      "smid": "0", "ssSubSectionId": "7", "intmId": "-1", "sText": "Legal",
-                      "ssText": "Circulars", "smText": "", "doDirect": str(page)},
-                timeout=30)
-        r.raise_for_status()
+        err = None
+        for attempt in range(3):
+            try:
+                if page == 0:
+                    r = session.get(SEBI_URL, timeout=30)
+                else:
+                    r = session.post(
+                        "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+                        data={"nextValue": "1", "next": "n", "search": "", "fromDate": "", "toDate": "",
+                              "fromYear": "", "toYear": "", "deptId": "-1", "sid": "1", "ssid": "7",
+                              "smid": "0", "ssSubSectionId": "7", "intmId": "-1", "sText": "Legal",
+                              "ssText": "Circulars", "smText": "", "doDirect": str(page)},
+                        timeout=30)
+                r.raise_for_status()
+                err = None
+                break
+            except Exception as e:
+                err = e
+                time.sleep(15 * (attempt + 1))
+        if err is not None:
+            if not items:
+                raise err  # nothing salvaged — let callers record the failure
+            log.warning("SEBI page %d failed after retries (%s); keeping %d items", page, err, len(items))
+            break
         soup = BeautifulSoup(r.text, "lxml")
         found = 0
         for row in soup.select("table tr"):

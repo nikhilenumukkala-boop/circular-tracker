@@ -140,7 +140,7 @@ document.getElementById("q").addEventListener("input", () => {
   debounce = setTimeout(() => { shown = {}; render(); }, 200);
 });
 
-fetch("data.json?t=" + Date.now())
+fetch("data.json")
   .then(r => r.json())
   .then(d => { DATA = d; renderBanners(); render(); renderFooter(); })
   .catch(() => {
