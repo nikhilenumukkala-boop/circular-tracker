@@ -1,8 +1,6 @@
 {
- "last_updated": "2026-07-16T07:24:29.668339+00:00",
- "errors": {
-  "SEBI": "archive backfill: 503 Server Error: Service Unavailable for url: http://web.archive.org/cdx/search/cdx?url=sebi.gov.in%2Flegal%2Fcirculars%2F%2A&output=text&collapse=urlkey&fl=original&filter=statuscode%3A200"
- },
+ "last_updated": "2026-07-16T08:36:02.984846+00:00",
+ "errors": {},
  "circulars": [
   {
    "source": "RBI",
