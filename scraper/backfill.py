@@ -151,13 +151,18 @@ def parse_sebi_detail(html, url):
             "date": date}
 
 
-def backfill_sebi_archive(delay=0.5, skip_urls=(), log=print):
-    """Fetch every archived SEBI circular page not already in data.json."""
+def backfill_sebi_archive(delay=0.5, skip_urls=(), checkpoint=None, log=print):
+    """Fetch every archived SEBI circular page not already in data.json.
+
+    checkpoint(items) is called every 200 pages with the items fetched since
+    the last call, so progress survives a workflow timeout — the next run
+    skips everything already saved.
+    """
     session = requests.Session()
     session.headers.update(HEADERS)
     todo = sorted(sebi_archive_urls(log) - set(skip_urls))
     log(f"SEBI archive: {len(todo)} pages to fetch")
-    items, failed = [], 0
+    items, batch, failed = [], [], 0
     for i, url in enumerate(todo):
         time.sleep(delay)
         try:
@@ -171,8 +176,14 @@ def backfill_sebi_archive(delay=0.5, skip_urls=(), log=print):
             continue
         if it:
             items.append(it)
+            batch.append(it)
         if (i + 1) % 200 == 0:
+            if checkpoint and batch:
+                checkpoint(batch)
+                batch = []
             log(f"SEBI archive: {i + 1}/{len(todo)} fetched, {failed} failed")
+    if checkpoint and batch:
+        checkpoint(batch)
     log(f"SEBI archive: done, {len(items)} circulars, {failed} failed")
     return items
 
@@ -200,9 +211,13 @@ def main():
             errors["SEBI"] = f"backfill: {e}"
             print(f"SEBI backfill failed: {e}")
     if args.sebi_archive:
+        def checkpoint(batch):
+            merge(data, batch, dict(data.get("errors") or {}))
+            save_data(data)
         try:
             known = {c["url"] for c in data["circulars"] if c["source"] == "SEBI"}
-            items += backfill_sebi_archive(delay=args.delay, skip_urls=known)
+            items += backfill_sebi_archive(delay=args.delay, skip_urls=known,
+                                           checkpoint=checkpoint)
         except Exception as e:
             errors["SEBI"] = f"archive backfill: {e}"
             print(f"SEBI archive backfill failed: {e}")

@@ -22,15 +22,19 @@ permissions:
 jobs:
   backfill:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 300
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
-      - run: python scraper/backfill.py --sebi-pages "${{ inputs.sebi_pages }}" --rbi-from-year "${{ inputs.rbi_from_year }}" ${{ inputs.sebi_archive == 'true' && '--sebi-archive' || '' }} --delay 1.0
+      - run: python -u scraper/backfill.py --sebi-pages "${{ inputs.sebi_pages }}" --rbi-from-year "${{ inputs.rbi_from_year }}" ${{ inputs.sebi_archive == 'true' && '--sebi-archive' || '' }} --delay 0.5
+        timeout-minutes: 290
       - name: Commit backfilled circulars
+        # always() so checkpointed progress is committed even if the
+        # scrape step times out — the next run resumes where it stopped
+        if: ${{ always() }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
