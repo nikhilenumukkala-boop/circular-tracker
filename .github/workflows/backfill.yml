@@ -11,6 +11,10 @@ on:
         description: "Earliest RBI year to fetch (0 = skip; archive goes back to 1991)"
         default: "1991"
         required: true
+      sebi_archive:
+        description: "Fetch the full SEBI archive via Wayback CDX + sitemap (true/false)"
+        default: "false"
+        required: true
 
 permissions:
   contents: write
@@ -25,7 +29,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
-      - run: python scraper/backfill.py --sebi-pages "${{ inputs.sebi_pages }}" --rbi-from-year "${{ inputs.rbi_from_year }}" --delay 1.0
+      - run: python scraper/backfill.py --sebi-pages "${{ inputs.sebi_pages }}" --rbi-from-year "${{ inputs.rbi_from_year }}" ${{ inputs.sebi_archive == 'true' && '--sebi-archive' || '' }} --delay 1.0
       - name: Commit backfilled circulars
         run: |
           git config user.name "github-actions[bot]"

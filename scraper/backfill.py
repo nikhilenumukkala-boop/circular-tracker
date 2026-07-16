@@ -97,12 +97,94 @@ def backfill_sebi(max_pages, delay=1.0, log=print):
     return items
 
 
+# ------------------------------------------------------- SEBI via CDX/sitemap
+# SEBI's WAF blocks the listing pagination POST from datacenter IPs, but the
+# individual circular pages (and sitemap.xml) are served fine. The Wayback
+# Machine's CDX index enumerates every circular URL it has ever crawled, back
+# to 1992 — so we take URLs from CDX + the live sitemap and fetch each page
+# for its exact title and date.
+CDX_URL = "http://web.archive.org/cdx/search/cdx"
+SEBI_SITEMAP = "https://www.sebi.gov.in/sitemap.xml"
+SEBI_PAGE_RE = re.compile(r"/legal/(?:master-)?circulars/[^\s\"?]+_\d+\.html")
+
+
+def sebi_archive_urls(log=print):
+    urls = set()
+    for pattern in ("sebi.gov.in/legal/circulars/*",
+                    "sebi.gov.in/legal/master-circulars/*"):
+        r = requests.get(CDX_URL, params={
+            "url": pattern, "output": "text", "collapse": "urlkey",
+            "fl": "original", "filter": "statuscode:200"}, timeout=120)
+        r.raise_for_status()
+        n = 0
+        for line in r.text.splitlines():
+            u = line.strip().split("?")[0]
+            if not SEBI_PAGE_RE.search(u):
+                continue
+            u = re.sub(r"^http://", "https://", u)
+            u = u.replace("https://sebi.gov.in", "https://www.sebi.gov.in")
+            urls.add(u)
+            n += 1
+        log(f"CDX {pattern}: {n} urls")
+    try:
+        r = requests.get(SEBI_SITEMAP, headers=HEADERS, timeout=30)
+        r.raise_for_status()
+        found = set(m.group(0) for m in re.finditer(
+            r"https://www\.sebi\.gov\.in/legal/(?:master-)?circulars/[^<\s]+_\d+\.html",
+            r.text))
+        log(f"sitemap: {len(found)} urls")
+        urls |= found
+    except Exception as e:
+        log(f"sitemap fetch failed (continuing with CDX only): {e}")
+    return urls
+
+
+def parse_sebi_detail(html, url):
+    soup = BeautifulSoup(html, "lxml")
+    t = soup.find("title")
+    title = re.sub(r"^\s*SEBI\s*\|\s*", "", t.get_text(" ", strip=True)) if t else ""
+    dv = soup.select_one(".date_value h5")
+    date = _parse_date(dv.get_text(" ", strip=True), ["%b %d, %Y"]) if dv else None
+    if not title:
+        return None
+    return {"source": "SEBI", "ref_no": None, "title": title, "url": url,
+            "date": date}
+
+
+def backfill_sebi_archive(delay=0.5, skip_urls=(), log=print):
+    """Fetch every archived SEBI circular page not already in data.json."""
+    session = requests.Session()
+    session.headers.update(HEADERS)
+    todo = sorted(sebi_archive_urls(log) - set(skip_urls))
+    log(f"SEBI archive: {len(todo)} pages to fetch")
+    items, failed = [], 0
+    for i, url in enumerate(todo):
+        time.sleep(delay)
+        try:
+            r = session.get(url, timeout=30)
+            r.raise_for_status()
+            it = parse_sebi_detail(r.text, url)
+        except Exception as e:
+            failed += 1
+            if failed <= 10:
+                log(f"skip {url}: {e}")
+            continue
+        if it:
+            items.append(it)
+        if (i + 1) % 200 == 0:
+            log(f"SEBI archive: {i + 1}/{len(todo)} fetched, {failed} failed")
+    log(f"SEBI archive: done, {len(items)} circulars, {failed} failed")
+    return items
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--sebi-pages", type=int, default=0,
                     help="max SEBI listing pages to walk (0 = skip SEBI)")
     ap.add_argument("--rbi-from-year", type=int, default=0,
                     help="earliest RBI year to fetch (0 = skip RBI)")
+    ap.add_argument("--sebi-archive", action="store_true",
+                    help="fetch the full SEBI archive via Wayback CDX + sitemap")
     ap.add_argument("--delay", type=float, default=1.0,
                     help="seconds between requests")
     args = ap.parse_args()
@@ -117,6 +199,13 @@ def main():
         except Exception as e:
             errors["SEBI"] = f"backfill: {e}"
             print(f"SEBI backfill failed: {e}")
+    if args.sebi_archive:
+        try:
+            known = {c["url"] for c in data["circulars"] if c["source"] == "SEBI"}
+            items += backfill_sebi_archive(delay=args.delay, skip_urls=known)
+        except Exception as e:
+            errors["SEBI"] = f"archive backfill: {e}"
+            print(f"SEBI archive backfill failed: {e}")
     if args.rbi_from_year:
         try:
             items += backfill_rbi(args.rbi_from_year, delay=args.delay)

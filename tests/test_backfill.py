@@ -1,10 +1,9 @@
-"""Offline test for the RBI archive month parser (fixture: March 2024 listing
-captured live from rbi.org.in)."""
+"""Offline tests for the archive backfill parsers (fixtures captured live)."""
 import os
 import sys
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "scraper"))
-from backfill import parse_rbi_month
+from backfill import parse_rbi_month, parse_sebi_detail
 
 HERE = os.path.dirname(__file__)
 
@@ -26,6 +25,17 @@ def test_parse_rbi_month():
           f"{len({i['date'] for i in items})} distinct dates")
 
 
+def test_parse_sebi_detail():
+    html = open(os.path.join(HERE, "sebi_detail_fixture.html"), encoding="utf-8").read()
+    url = "https://www.sebi.gov.in/legal/circulars/apr-1992/registration-of-brokers_19382.html"
+    it = parse_sebi_detail(html, url)
+    assert it["title"] == "Registration of brokers", it["title"]
+    assert it["date"] == "1992-04-10", it["date"]
+    assert it["source"] == "SEBI" and it["url"] == url
+    print("SEBI detail parser OK:", it["date"], "|", it["title"])
+
+
 if __name__ == "__main__":
     test_parse_rbi_month()
+    test_parse_sebi_detail()
     print("ALL BACKFILL TESTS PASSED")
