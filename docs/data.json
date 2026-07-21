@@ -1,9 +1,23 @@
 {
- "last_updated": "2026-07-21T14:27:58.567744+00:00",
- "errors": {
-  "SEBI": "HTTPSConnectionPool(host='www.sebi.gov.in', port=443): Read timed out. (read timeout=30)"
- },
+ "last_updated": "2026-07-21T19:53:00.110669+00:00",
+ "errors": {},
  "circulars": [
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Certification Requirements for Distribution of Specialized Investment Funds (SIFs)",
+   "url": "https://www.sebi.gov.in/legal/circulars/jul-2026/certification-requirements-for-distribution-of-specialized-investment-funds-sifs-_102986.html",
+   "date": "2026-07-21",
+   "first_seen": "2026-07-21T19:53:00.110669+00:00"
+  },
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Operationalisation of freezing of holdings of promoter and promoter group including their associates (promoter holdings) at the ISIN level under Regulation 24(i)(ea) of the SEBI (Buy-back of Securities) Regulations, 2018 dated July 21, 2026",
+   "url": "https://www.sebi.gov.in/legal/circulars/jul-2026/operationalisation-of-freezing-of-holdings-of-promoter-and-promoter-group-including-their-associates-promoter-holdings-at-the-isin-level-under-regulation-24-i-ea-of-the-sebi-buy-back-of-securitie-_102978.html",
+   "date": "2026-07-21",
+   "first_seen": "2026-07-21T19:53:00.110669+00:00"
+  },
   {
    "source": "SEBI",
    "ref_no": null,
