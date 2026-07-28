@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-07-28T09:06:27.612131+00:00",
+ "last_updated": "2026-07-28T14:39:57.659235+00:00",
  "errors": {},
  "circulars": [
   {
@@ -2681,6 +2681,14 @@
    "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13277&Mode=0",
    "date": "2026-01-16",
    "first_seen": "2026-07-15T11:55:44.000951+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "AMFI/MFD-CIR/32/2025-26",
+   "title": "AMFI Master Circular for Mutual Fund Distributors",
+   "url": "https://www.amfiindia.com/uploads/AMFI_Master_Cicular_for_MF_Ds_3c7f5ee44f.pdf",
+   "date": "2026-01-14",
+   "first_seen": "2026-07-28T14:39:57.659235+00:00"
   },
   {
    "source": "RBI",
