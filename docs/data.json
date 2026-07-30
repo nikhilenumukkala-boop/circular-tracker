@@ -1,7 +1,95 @@
 {
- "last_updated": "2026-07-30T09:03:55.739775+00:00",
+ "last_updated": "2026-07-30T14:33:44.484191+00:00",
  "errors": {},
  "circulars": [
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "‘Green-Channel: AIF Rollout Upon Document Acknowledgement’ (GARUDA) Mechanism for Processing of Placement Memorandum of Alternative Investment Funds (AIFs) filed with SEBI",
+   "url": "https://www.sebi.gov.in/legal/circulars/jul-2026/-green-channel-aif-rollout-upon-document-acknowledgement-garuda-mechanism-for-processing-of-placement-memorandum-of-alternative-investment-funds-aifs-filed-with-sebi_103241.html",
+   "date": "2026-07-30",
+   "first_seen": "2026-07-30T14:33:44.484191+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (Urban Co-operative Banks – Interest Rate on Deposits) Second Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13661&Mode=0",
+   "date": null,
+   "first_seen": "2026-07-30T14:33:44.484191+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (Local Area Banks – Interest Rate on Deposits)  Second Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13660&Mode=0",
+   "date": null,
+   "first_seen": "2026-07-30T14:33:44.484191+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (Payments Banks – Interest Rate on Deposits)  Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13659&Mode=0",
+   "date": null,
+   "first_seen": "2026-07-30T14:33:44.484191+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (Regional Rural Banks – Interest Rate on Deposits) Second Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13658&Mode=0",
+   "date": null,
+   "first_seen": "2026-07-30T14:33:44.484191+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (Small Finance Banks – Interest Rate on Deposits) Second Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13657&Mode=0",
+   "date": null,
+   "first_seen": "2026-07-30T14:33:44.484191+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (Commercial Banks – Interest Rate on Deposits)  Second Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13656&Mode=0",
+   "date": null,
+   "first_seen": "2026-07-30T14:33:44.484191+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (Small Finance Banks – Financial Statements: Presentation and Disclosures) Fourth Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13655&Mode=0",
+   "date": null,
+   "first_seen": "2026-07-30T14:33:44.484191+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (Small Finance Banks – Governance) Third Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13654&Mode=0",
+   "date": null,
+   "first_seen": "2026-07-30T14:33:44.484191+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (Small Finance Banks – Asset Liability Management) Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13653&Mode=0",
+   "date": null,
+   "first_seen": "2026-07-30T14:33:44.484191+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (Small Finance Banks – Prudential Norms on Capital Adequacy) Fifth Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13652&Mode=0",
+   "date": null,
+   "first_seen": "2026-07-30T14:33:44.484191+00:00"
+  },
   {
    "source": "SEBI",
    "ref_no": null,
