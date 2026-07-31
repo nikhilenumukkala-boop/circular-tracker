@@ -1,7 +1,95 @@
 {
- "last_updated": "2026-07-31T09:17:45.110603+00:00",
+ "last_updated": "2026-07-31T14:37:39.705343+00:00",
  "errors": {},
  "circulars": [
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Extension of timelines with repect to compliance of Digital Accessibility Circulars.",
+   "url": "https://www.sebi.gov.in/legal/circulars/jul-2026/extension-of-timelines-with-repect-to-compliance-of-digital-accessibility-circulars-_103277.html",
+   "date": "2026-07-31",
+   "first_seen": "2026-07-31T14:37:39.705343+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/222",
+   "title": "Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1988 (2011) Taliban Sanctions List: Amendment of 05 Entries:",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13664&Mode=0",
+   "date": "2026-07-31",
+   "first_seen": "2026-07-31T14:37:39.705343+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/DoS/2026-27/221",
+   "title": "Consolidation of Supervisory Instructions – Repeal of Circulars",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13663&Mode=0",
+   "date": "2026-07-31",
+   "first_seen": "2026-07-31T14:37:39.705343+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/220",
+   "title": "Fake Indian Currency Notes (FICNs)-Detection, Reporting and Monitoring",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13662&Mode=0",
+   "date": "2026-07-31",
+   "first_seen": "2026-07-31T14:37:39.705343+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (Commercial Banks - Compliance Function) Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13645&Mode=0",
+   "date": null,
+   "first_seen": "2026-07-31T14:37:39.705343+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (Commercial Banks – Concurrent Audit) Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13644&Mode=0",
+   "date": null,
+   "first_seen": "2026-07-31T14:37:39.705343+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13643&Mode=0",
+   "date": null,
+   "first_seen": "2026-07-31T14:37:39.705343+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13642&Mode=0",
+   "date": null,
+   "first_seen": "2026-07-31T14:37:39.705343+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (Commercial Banks – Fraud Risk Management) Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13641&Mode=0",
+   "date": null,
+   "first_seen": "2026-07-31T14:37:39.705343+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (Commercial Banks - Internal Audit Function) Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13640&Mode=0",
+   "date": null,
+   "first_seen": "2026-07-31T14:37:39.705343+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (Commercial Banks – Statutory Audit) Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13639&Mode=0",
+   "date": null,
+   "first_seen": "2026-07-31T14:37:39.705343+00:00"
+  },
   {
    "source": "RBI",
    "ref_no": "RBI/2026-27/218",
