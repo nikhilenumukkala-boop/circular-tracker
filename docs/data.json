@@ -1,7 +1,15 @@
 {
- "last_updated": "2026-08-03T10:07:23.094634+00:00",
+ "last_updated": "2026-08-03T15:18:21.062797+00:00",
  "errors": {},
  "circulars": [
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Extension of timeline for enrolment with PaRRVA as specified in SEBI Circular No. HO/38/14/(4)2026-MIRSD-POD/I/10557/2026 dated April 29, 2026",
+   "url": "https://www.sebi.gov.in/legal/circulars/aug-2026/extension-of-timeline-for-enrolment-with-parrva-as-specified-in-sebi-circular-no-ho-38-14-4-2026-mirsd-pod-i-10557-2026-dated-april-29-2026_103314.html",
+   "date": "2026-08-03",
+   "first_seen": "2026-08-03T15:18:21.062797+00:00"
+  },
   {
    "source": "SEBI",
    "ref_no": null,
