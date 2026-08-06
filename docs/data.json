@@ -1,7 +1,79 @@
 {
- "last_updated": "2026-08-06T09:07:55.314102+00:00",
+ "last_updated": "2026-08-06T14:36:32.895091+00:00",
  "errors": {},
  "circulars": [
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (Housing Finance Companies) Third Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13673&Mode=0",
+   "date": null,
+   "first_seen": "2026-08-06T14:36:32.895091+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (Non-Banking Financial Companies - Responsible Business Conduct) Third Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13672&Mode=0",
+   "date": null,
+   "first_seen": "2026-08-06T14:36:32.895091+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (All India Financial Institutions - Responsible Business Conduct) Third Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13671&Mode=0",
+   "date": null,
+   "first_seen": "2026-08-06T14:36:32.895091+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (Rural Co-operative Banks - Responsible Business Conduct) Fourth Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13670&Mode=0",
+   "date": null,
+   "first_seen": "2026-08-06T14:36:32.895091+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (Urban Co-operative Banks - Responsible Business Conduct) Fourth Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13669&Mode=0",
+   "date": null,
+   "first_seen": "2026-08-06T14:36:32.895091+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (Regional Rural Banks - Responsible Business Conduct) Fourth Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13668&Mode=0",
+   "date": null,
+   "first_seen": "2026-08-06T14:36:32.895091+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (Local Area Banks - Responsible Business Conduct) Fourth Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13667&Mode=0",
+   "date": null,
+   "first_seen": "2026-08-06T14:36:32.895091+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (Small Finance Banks - Responsible Business Conduct) Fourth Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13666&Mode=0",
+   "date": null,
+   "first_seen": "2026-08-06T14:36:32.895091+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (Commercial Banks - Responsible Business Conduct) Fourth Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13665&Mode=0",
+   "date": null,
+   "first_seen": "2026-08-06T14:36:32.895091+00:00"
+  },
   {
    "source": "SEBI",
    "ref_no": null,
