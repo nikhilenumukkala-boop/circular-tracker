@@ -1,7 +1,15 @@
 {
- "last_updated": "2026-08-07T07:43:21.918358+00:00",
+ "last_updated": "2026-08-07T13:41:06.671059+00:00",
  "errors": {},
  "circulars": [
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/232",
+   "title": "Reserve Bank of India (Priority Sector Lending – Targets and Classification) Second Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13674&Mode=0",
+   "date": "2026-08-07",
+   "first_seen": "2026-08-07T13:41:06.671059+00:00"
+  },
   {
    "source": "RBI",
    "ref_no": null,
