@@ -1,7 +1,15 @@
 {
- "last_updated": "2026-08-12T07:54:14.481277+00:00",
+ "last_updated": "2026-08-12T13:49:27.531261+00:00",
  "errors": {},
  "circulars": [
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Review of Inclusion of Historical Scenarios in Stress Testing for Commodity Derivatives Segment",
+   "url": "https://www.sebi.gov.in/legal/circulars/aug-2026/review-of-inclusion-of-historical-scenarios-in-stress-testing-for-commodity-derivatives-segment_103521.html",
+   "date": "2026-08-12",
+   "first_seen": "2026-08-12T13:49:27.531261+00:00"
+  },
   {
    "source": "SEBI",
    "ref_no": null,
