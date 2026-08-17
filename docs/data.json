@@ -1,7 +1,15 @@
 {
- "last_updated": "2026-08-17T07:17:25.737184+00:00",
+ "last_updated": "2026-08-17T13:07:42.130567+00:00",
  "errors": {},
  "circulars": [
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Revision of Application Form for Mutual Fund Registration",
+   "url": "https://www.sebi.gov.in/legal/circulars/aug-2026/revision-of-application-form-for-mutual-fund-registration_103721.html",
+   "date": "2026-08-17",
+   "first_seen": "2026-08-17T13:07:42.130567+00:00"
+  },
   {
    "source": "SEBI",
    "ref_no": null,
