@@ -1,7 +1,23 @@
 {
- "last_updated": "2026-08-20T07:07:27.826420+00:00",
+ "last_updated": "2026-08-20T13:12:03.600905+00:00",
  "errors": {},
  "circulars": [
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Acceptance of digitally signed Power of Attorney from FPIs",
+   "url": "https://www.sebi.gov.in/legal/circulars/aug-2026/acceptance-of-digitally-signed-power-of-attorney-from-fpis_103824.html",
+   "date": "2026-08-20",
+   "first_seen": "2026-08-20T13:12:03.600905+00:00"
+  },
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Enabling sharing of information by KYC Registration Agencies (KRAs) with entities regulated by International Financial Services Centres Authority",
+   "url": "https://www.sebi.gov.in/legal/circulars/aug-2026/enabling-sharing-of-information-by-kyc-registration-agencies-kras-with-entities-regulated-by-international-financial-services-centres-authority_103823.html",
+   "date": "2026-08-20",
+   "first_seen": "2026-08-20T13:12:03.600905+00:00"
+  },
   {
    "source": "RBI",
    "ref_no": "RBI/2026-27/236",
