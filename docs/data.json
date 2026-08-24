@@ -1,7 +1,23 @@
 {
- "last_updated": "2026-08-24T07:29:46.363816+00:00",
+ "last_updated": "2026-08-24T13:14:47.717494+00:00",
  "errors": {},
  "circulars": [
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Alignment of SEBI's Cyber Incident Reporting Portal with FIRE Format",
+   "url": "https://www.sebi.gov.in/legal/circulars/aug-2026/alignment-of-sebi-s-cyber-incident-reporting-portal-with-fire-format_103915.html",
+   "date": "2026-08-24",
+   "first_seen": "2026-08-24T13:14:47.717494+00:00"
+  },
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "IT Resilience Index for Market Infrastructure Institutions (MIIs)",
+   "url": "https://www.sebi.gov.in/legal/circulars/aug-2026/it-resilience-index-for-market-infrastructure-institutions-miis-_103913.html",
+   "date": "2026-08-24",
+   "first_seen": "2026-08-24T13:14:47.717494+00:00"
+  },
   {
    "source": "SEBI",
    "ref_no": null,
