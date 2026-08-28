@@ -1,7 +1,15 @@
 {
- "last_updated": "2026-08-27T22:17:28.572694+00:00",
+ "last_updated": "2026-08-28T11:26:43.798110+00:00",
  "errors": {},
  "circulars": [
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Extension of timeline for implementation of provisions of SEBI Circular dated June 15, 2026 on norms for base price, price bands, call auction in pre-open session and Close-out procedure for Exchange Traded Funds (ETFs)",
+   "url": "https://www.sebi.gov.in/legal/circulars/aug-2026/extension-of-timeline-for-implementation-of-provisions-of-sebi-circular-dated-june-15-2026-on-norms-for-base-price-price-bands-call-auction-in-pre-open-session-and-close-out-procedure-for-exchange-_104094.html",
+   "date": "2026-08-28",
+   "first_seen": "2026-08-28T11:26:43.798110+00:00"
+  },
   {
    "source": "RBI",
    "ref_no": null,
