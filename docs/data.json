@@ -1,9 +1,6 @@
 {
- "last_updated": "2026-08-29T16:48:59.158273+00:00",
- "errors": {
-  "SEBI": "HTTPSConnectionPool(host='www.sebi.gov.in', port=443): Max retries exceeded with url: /sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.sebi.gov.in', port=443) at 0x7f44aa322a80>, 'Connection to www.sebi.gov.in timed out. (connect timeout=30)'))",
-  "RBI": "418 Client Error: Unknown Code for url: https://www.rbi.org.in/notifications_rss.xml"
- },
+ "last_updated": "2026-08-29T20:57:13.303689+00:00",
+ "errors": {},
  "circulars": [
   {
    "source": "SEBI",
