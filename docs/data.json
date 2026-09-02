@@ -1,7 +1,31 @@
 {
- "last_updated": "2026-09-02T11:21:58.226754+00:00",
+ "last_updated": "2026-09-02T16:36:49.238327+00:00",
  "errors": {},
  "circulars": [
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/251",
+   "title": "Deposits and Accounts – Accounts of Non-resident banks",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13693&Mode=0",
+   "date": "2026-09-02",
+   "first_seen": "2026-09-02T16:36:49.238327+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/250",
+   "title": "Relief Measures in Areas Affected by Natural Calamities - Reporting through Centralised Information Management System (CIMS) Portal - Introduction of Half-Yearly Return",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13692&Mode=0",
+   "date": "2026-09-02",
+   "first_seen": "2026-09-02T16:36:49.238327+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/249",
+   "title": "Reserve Bank of India (Urban Co-operative Banks – Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13691&Mode=0",
+   "date": "2026-09-02",
+   "first_seen": "2026-09-02T16:36:49.238327+00:00"
+  },
   {
    "source": "SEBI",
    "ref_no": null,
