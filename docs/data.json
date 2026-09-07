@@ -1,7 +1,15 @@
 {
- "last_updated": "2026-09-07T12:38:10.143835+00:00",
+ "last_updated": "2026-09-07T21:32:48.176290+00:00",
  "errors": {},
  "circulars": [
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Relaxation in timeline with respect to Accredited Investor mandate for Angel Funds",
+   "url": "https://www.sebi.gov.in/legal/circulars/sep-2026/relaxation-in-timeline-with-respect-to-accredited-investor-mandate-for-angel-funds_104323.html",
+   "date": "2026-09-07",
+   "first_seen": "2026-09-07T21:32:48.176290+00:00"
+  },
   {
    "source": "SEBI",
    "ref_no": null,
