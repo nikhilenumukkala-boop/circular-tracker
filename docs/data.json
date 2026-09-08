@@ -1,7 +1,15 @@
 {
- "last_updated": "2026-09-08T11:22:41.019734+00:00",
+ "last_updated": "2026-09-08T16:40:17.648875+00:00",
  "errors": {},
  "circulars": [
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/254",
+   "title": "Review of Circulars issued under Foreign Exchange Management Act, 1999 (FEMA)",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13696&Mode=0",
+   "date": "2026-09-08",
+   "first_seen": "2026-09-08T16:40:17.648875+00:00"
+  },
   {
    "source": "SEBI",
    "ref_no": null,
