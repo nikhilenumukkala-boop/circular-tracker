@@ -1,7 +1,15 @@
 {
- "last_updated": "2026-09-09T04:45:58.635936+00:00",
+ "last_updated": "2026-09-09T11:26:52.048468+00:00",
  "errors": {},
  "circulars": [
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Review of Position Limits for Clients and Penalty Provisions for Violation / Breach of Position Limits for Commodity Derivatives Segment",
+   "url": "https://www.sebi.gov.in/legal/circulars/sep-2026/review-of-position-limits-for-clients-and-penalty-provisions-for-violation-breach-of-position-limits-for-commodity-derivatives-segment_104387.html",
+   "date": "2026-09-09",
+   "first_seen": "2026-09-09T11:26:52.048468+00:00"
+  },
   {
    "source": "RBI",
    "ref_no": "RBI/2026-27/254",
