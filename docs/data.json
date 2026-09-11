@@ -1,7 +1,23 @@
 {
- "last_updated": "2026-09-11T16:30:48.965830+00:00",
+ "last_updated": "2026-09-11T21:00:32.525607+00:00",
  "errors": {},
  "circulars": [
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/256",
+   "title": "Reserve Bank of India (Priority Sector Lending – Targets and Classification) Third Amendment Directions, 2026",
+   "url": "http://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13698&Mode=0",
+   "date": "2026-09-11",
+   "first_seen": "2026-09-11T21:00:32.525607+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/255",
+   "title": "Reserve Bank of India (Local Area Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Second Amendment Directions, 2026",
+   "url": "http://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13697&Mode=0",
+   "date": "2026-09-11",
+   "first_seen": "2026-09-11T21:00:32.525607+00:00"
+  },
   {
    "source": "RBI",
    "ref_no": "RBI/2026-27/256",
@@ -30,9 +46,33 @@
    "source": "RBI",
    "ref_no": "RBI/2026-27/254",
    "title": "Review of Circulars issued under Foreign Exchange Management Act, 1999 (FEMA)",
+   "url": "http://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13696&Mode=0",
+   "date": "2026-09-08",
+   "first_seen": "2026-09-11T21:00:32.525607+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/254",
+   "title": "Review of Circulars issued under Foreign Exchange Management Act, 1999 (FEMA)",
    "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13696&Mode=0",
    "date": "2026-09-08",
    "first_seen": "2026-09-08T16:40:17.648875+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/253",
+   "title": "Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Da'esh) & Al-Qaida Sanctions List: Amendment of 2 Entries",
+   "url": "http://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13695&Mode=0",
+   "date": "2026-09-07",
+   "first_seen": "2026-09-11T21:00:32.525607+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/252",
+   "title": "Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1988 (2011) Taliban Sanctions List: Amendment of 01 Entry:",
+   "url": "http://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13694&Mode=0",
+   "date": "2026-09-07",
+   "first_seen": "2026-09-11T21:00:32.525607+00:00"
   },
   {
    "source": "SEBI",
@@ -70,6 +110,30 @@
    "source": "RBI",
    "ref_no": "RBI/2026-27/251",
    "title": "Deposits and Accounts – Accounts of Non-resident banks",
+   "url": "http://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13693&Mode=0",
+   "date": "2026-09-02",
+   "first_seen": "2026-09-11T21:00:32.525607+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/250",
+   "title": "Relief Measures in Areas Affected by Natural Calamities - Reporting through Centralised Information Management System (CIMS) Portal - Introduction of Half-Yearly Return",
+   "url": "http://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13692&Mode=0",
+   "date": "2026-09-02",
+   "first_seen": "2026-09-11T21:00:32.525607+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/249",
+   "title": "Reserve Bank of India (Urban Co-operative Banks – Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026",
+   "url": "http://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13691&Mode=0",
+   "date": "2026-09-02",
+   "first_seen": "2026-09-11T21:00:32.525607+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/251",
+   "title": "Deposits and Accounts – Accounts of Non-resident banks",
    "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13693&Mode=0",
    "date": "2026-09-02",
    "first_seen": "2026-09-02T16:36:49.238327+00:00"
@@ -97,6 +161,22 @@
    "url": "https://www.sebi.gov.in/legal/circulars/aug-2026/extension-of-timeline-for-implementation-of-provisions-of-sebi-circular-dated-june-15-2026-on-norms-for-base-price-price-bands-call-auction-in-pre-open-session-and-close-out-procedure-for-exchange-_104094.html",
    "date": "2026-08-28",
    "first_seen": "2026-08-28T11:26:43.798110+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/248",
+   "title": "Reserve Bank of India (Rural Co-operative Banks – Interest Rate on Deposits) Second Amendment Directions, 2026",
+   "url": "http://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13690&Mode=0",
+   "date": "2026-08-25",
+   "first_seen": "2026-09-11T21:00:32.525607+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/247",
+   "title": "Reserve Bank of India (Urban Co-operative Banks – Interest Rate on Deposits) Third Amendment Directions, 2026",
+   "url": "http://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13689&Mode=0",
+   "date": "2026-08-25",
+   "first_seen": "2026-09-11T21:00:32.525607+00:00"
   },
   {
    "source": "RBI",
