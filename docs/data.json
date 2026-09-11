@@ -1,7 +1,15 @@
 {
- "last_updated": "2026-09-11T04:44:21.775623+00:00",
+ "last_updated": "2026-09-11T11:25:08.043347+00:00",
  "errors": {},
  "circulars": [
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/255",
+   "title": "Reserve Bank of India (Local Area Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Second Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13697&Mode=0",
+   "date": "2026-09-11",
+   "first_seen": "2026-09-11T11:25:08.043347+00:00"
+  },
   {
    "source": "SEBI",
    "ref_no": null,
