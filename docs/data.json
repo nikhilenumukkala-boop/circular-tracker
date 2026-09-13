@@ -1,8 +1,6 @@
 {
- "last_updated": "2026-09-13T04:53:35.362894+00:00",
- "errors": {
-  "SEBI": "HTTPSConnectionPool(host='www.sebi.gov.in', port=443): Max retries exceeded with url: /sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))"
- },
+ "last_updated": "2026-09-13T11:56:00.413920+00:00",
+ "errors": {},
  "circulars": [
   {
    "source": "RBI",
