@@ -1,7 +1,55 @@
 {
- "last_updated": "2026-09-18T04:47:16.911992+00:00",
+ "last_updated": "2026-09-18T11:19:35.276051+00:00",
  "errors": {},
  "circulars": [
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/262",
+   "title": "Reserve Bank of India (Rural Co-operative Banks – Know Your Customer) Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13704&Mode=0",
+   "date": "2026-09-18",
+   "first_seen": "2026-09-18T11:19:35.276051+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/261",
+   "title": "Reserve Bank of India (Urban Co-operative Banks – Know Your Customer) Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13703&Mode=0",
+   "date": "2026-09-18",
+   "first_seen": "2026-09-18T11:19:35.276051+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/260",
+   "title": "Reserve Bank of India (Regional Rural Banks – Know Your Customer) Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13702&Mode=0",
+   "date": "2026-09-18",
+   "first_seen": "2026-09-18T11:19:35.276051+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/259",
+   "title": "Reserve Bank of India (Local Area Banks – Know Your Customer) Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13701&Mode=0",
+   "date": "2026-09-18",
+   "first_seen": "2026-09-18T11:19:35.276051+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/258",
+   "title": "Reserve Bank of India (Small Finance Banks – Know Your Customer) Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13700&Mode=0",
+   "date": "2026-09-18",
+   "first_seen": "2026-09-18T11:19:35.276051+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/257",
+   "title": "Reserve Bank of India (Commercial Banks – Know Your Customer) Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13699&Mode=0",
+   "date": "2026-09-18",
+   "first_seen": "2026-09-18T11:19:35.276051+00:00"
+  },
   {
    "source": "RBI",
    "ref_no": "RBI/2026-27/256",
