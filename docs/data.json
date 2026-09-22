@@ -1,7 +1,31 @@
 {
- "last_updated": "2026-09-22T05:00:10.314513+00:00",
+ "last_updated": "2026-09-22T11:43:15.531718+00:00",
  "errors": {},
  "circulars": [
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (Local Area Banks - Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13708&Mode=0",
+   "date": null,
+   "first_seen": "2026-09-22T11:43:15.531718+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (Commercial Banks - Classification, Valuation, and Operation of Investment Portfolio) Third Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13707&Mode=0",
+   "date": null,
+   "first_seen": "2026-09-22T11:43:15.531718+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/263",
+   "title": "Novation of OTC Derivative Contracts",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13706&Mode=0",
+   "date": "2026-09-22",
+   "first_seen": "2026-09-22T11:43:15.531718+00:00"
+  },
   {
    "source": "RBI",
    "ref_no": null,
