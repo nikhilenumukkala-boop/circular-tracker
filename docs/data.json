@@ -1,7 +1,31 @@
 {
- "last_updated": "2026-09-22T11:43:15.531718+00:00",
+ "last_updated": "2026-09-22T16:58:57.332555+00:00",
  "errors": {},
  "circulars": [
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/268",
+   "title": "Reserve Bank of India (All India Financial Institutions - Classification, Valuation, and Operation of Investment Portfolio) Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13711&Mode=0",
+   "date": "2026-09-22",
+   "first_seen": "2026-09-22T16:58:57.332555+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/267",
+   "title": "Reserve Bank of India (Payments Banks - Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13710&Mode=0",
+   "date": "2026-09-22",
+   "first_seen": "2026-09-22T16:58:57.332555+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/266",
+   "title": "Reserve Bank of India (Small Finance Banks - Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13709&Mode=0",
+   "date": "2026-09-22",
+   "first_seen": "2026-09-22T16:58:57.332555+00:00"
+  },
   {
    "source": "RBI",
    "ref_no": null,
