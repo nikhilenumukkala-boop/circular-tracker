@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-09-25T05:00:46.867247+00:00",
+ "last_updated": "2026-09-25T11:54:19.163515+00:00",
  "errors": {},
  "circulars": [
   {
@@ -17,6 +17,14 @@
    "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13712&Mode=0",
    "date": "2026-09-23",
    "first_seen": "2026-09-23T11:41:24.558767+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Foreign Exchange Management (Export and Import of Goods and Services) (Amendment) Regulations, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13714&Mode=0",
+   "date": "2026-09-22",
+   "first_seen": "2026-09-25T11:54:19.163515+00:00"
   },
   {
    "source": "RBI",
