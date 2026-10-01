@@ -1,7 +1,47 @@
 {
- "last_updated": "2026-10-01T05:59:41.451533+00:00",
+ "last_updated": "2026-10-01T13:21:01.959453+00:00",
  "errors": {},
  "circulars": [
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Display of “investor awareness message(s)” by stock brokers on their trading apps and websites, under Project Jagrook",
+   "url": "https://www.sebi.gov.in/legal/circulars/oct-2026/display-of-investor-awareness-message-s-by-stock-brokers-on-their-trading-apps-and-websites-under-project-jagrook_104858.html",
+   "date": "2026-10-01",
+   "first_seen": "2026-10-01T13:21:01.959453+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (Local Area Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13722&Mode=0",
+   "date": null,
+   "first_seen": "2026-10-01T13:21:01.959453+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (Payments Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13721&Mode=0",
+   "date": null,
+   "first_seen": "2026-10-01T13:21:01.959453+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (Small Finance Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13720&Mode=0",
+   "date": null,
+   "first_seen": "2026-10-01T13:21:01.959453+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (Commercial Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13719&Mode=0",
+   "date": null,
+   "first_seen": "2026-10-01T13:21:01.959453+00:00"
+  },
   {
    "source": "RBI",
    "ref_no": "RBI/2026-27/274",
