@@ -1,7 +1,31 @@
 {
- "last_updated": "2026-10-02T05:42:01.629729+00:00",
+ "last_updated": "2026-10-02T12:40:12.625443+00:00",
  "errors": {},
  "circulars": [
+  {
+   "source": "RBI",
+   "ref_no": "RBI/DCM/2026-27/473",
+   "title": "Master Direction on Note Sorting Machines",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13723&Mode=0",
+   "date": "2026-10-02",
+   "first_seen": "2026-10-02T12:40:12.625443+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/280",
+   "title": "Non-Resident Deposits - Comprehensive Single Return (NRD-CSR)(R012): Submission under CIMS Sankalan Portal",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13725&Mode=0",
+   "date": "2026-10-01",
+   "first_seen": "2026-10-02T12:40:12.625443+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/279",
+   "title": "Online submission of Form A2: Removal of limits on amount of remittance",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13724&Mode=0",
+   "date": "2026-10-01",
+   "first_seen": "2026-10-02T12:40:12.625443+00:00"
+  },
   {
    "source": "SEBI",
    "ref_no": null,
