@@ -1,7 +1,23 @@
 {
- "last_updated": "2026-10-06T18:24:27.439145+00:00",
+ "last_updated": "2026-10-07T06:04:05.557758+00:00",
  "errors": {},
  "circulars": [
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/282",
+   "title": "Liquidity Adjustment Facility - Change in rates",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13727&Mode=0",
+   "date": "2026-10-07",
+   "first_seen": "2026-10-07T06:04:05.557758+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Standing Liquidity Facility for Primary Dealers",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13726&Mode=0",
+   "date": null,
+   "first_seen": "2026-10-07T06:04:05.557758+00:00"
+  },
   {
    "source": "RBI",
    "ref_no": "RBI/DCM/2026-27/473",
