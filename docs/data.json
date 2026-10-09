@@ -1,7 +1,23 @@
 {
- "last_updated": "2026-10-09T13:22:36.040939+00:00",
+ "last_updated": "2026-10-09T22:40:51.364370+00:00",
  "errors": {},
  "circulars": [
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/292",
+   "title": "Risk Management and Inter-Bank Dealings - Foreign Exchange Risk Reserve",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13738&Mode=0",
+   "date": "2026-10-10",
+   "first_seen": "2026-10-09T22:40:51.364370+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/291",
+   "title": "Risk Management and Inter-Bank Dealings",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13737&Mode=0",
+   "date": "2026-10-10",
+   "first_seen": "2026-10-09T22:40:51.364370+00:00"
+  },
   {
    "source": "RBI",
    "ref_no": "RBI/2026-27/290",
