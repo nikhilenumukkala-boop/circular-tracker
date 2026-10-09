@@ -1,8 +1,6 @@
 {
- "last_updated": "2026-10-08T23:23:30.998151+00:00",
- "errors": {
-  "AMFI": "HTTPSConnectionPool(host='www.amfiindia.com', port=443): Max retries exceeded with url: /distributor/amfi-circulars (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.amfiindia.com', port=443) at 0x7ff858d16c00>, 'Connection to www.amfiindia.com timed out. (connect timeout=30)'))"
- },
+ "last_updated": "2026-10-09T06:12:51.893633+00:00",
+ "errors": {},
  "circulars": [
   {
    "source": "SEBI",
