@@ -1,7 +1,31 @@
 {
- "last_updated": "2026-10-19T04:45:00.189396+00:00",
+ "last_updated": "2026-10-19T13:22:29.509444+00:00",
  "errors": {},
  "circulars": [
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/296",
+   "title": "Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Da'esh) & Al-Qaida Sanctions List: Amendment of 03 Entries",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13742&Mode=0",
+   "date": "2026-10-19",
+   "first_seen": "2026-10-19T13:22:29.509444+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/295",
+   "title": "Reserve Bank of India (Small Finance Banks - Miscellaneous) Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13741&Mode=0",
+   "date": "2026-10-19",
+   "first_seen": "2026-10-19T13:22:29.509444+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/294",
+   "title": "Reserve Bank of India (Commercial Banks - Miscellaneous) Second Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13740&Mode=0",
+   "date": "2026-10-19",
+   "first_seen": "2026-10-19T13:22:29.509444+00:00"
+  },
   {
    "source": "SEBI",
    "ref_no": null,
