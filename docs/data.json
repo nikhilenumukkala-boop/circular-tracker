@@ -1,7 +1,15 @@
 {
- "last_updated": "2026-10-22T04:52:46.073290+00:00",
+ "last_updated": "2026-10-22T11:57:11.390862+00:00",
  "errors": {},
  "circulars": [
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Margin Waiver on Subsequent Buy/Sell Transactions Post Early Pay-In (EPI) in Cash Segment",
+   "url": "https://www.sebi.gov.in/legal/circulars/oct-2026/margin-waiver-on-subsequent-buy-sell-transactions-post-early-pay-in-epi-in-cash-segment_105364.html",
+   "date": "2026-10-22",
+   "first_seen": "2026-10-22T11:57:11.390862+00:00"
+  },
   {
    "source": "RBI",
    "ref_no": "RBI/2026-27/296",
@@ -705,6 +713,14 @@
    "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13676&Mode=0",
    "date": "2026-08-18",
    "first_seen": "2026-08-18T13:09:49.250317+00:00"
+  },
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Revision of Application Form for Mutual Fund Registration",
+   "url": "https://www.sebi.gov.in/legal/circulars/aug-2026/revision-of-application-form-for-mutual-fund-registration_105352.html",
+   "date": "2026-08-17",
+   "first_seen": "2026-10-22T11:57:11.390862+00:00"
   },
   {
    "source": "SEBI",
