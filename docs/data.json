@@ -1,9 +1,23 @@
 {
- "last_updated": "2026-10-23T11:43:41.238454+00:00",
- "errors": {
-  "AMFI": "HTTPSConnectionPool(host='www.amfiindia.com', port=443): Max retries exceeded with url: /distributor/amfi-circulars (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.amfiindia.com', port=443) at 0x7f069218a4e0>, 'Connection to www.amfiindia.com timed out. (connect timeout=30)'))"
- },
+ "last_updated": "2026-10-23T17:11:29.644596+00:00",
+ "errors": {},
  "circulars": [
+  {
+   "source": "RBI",
+   "ref_no": "RBI/FED/2026-27/298",
+   "title": "Delegation of Compounding of certain Contraventions under FEMA, 1999 to Regional Offices of the Reserve Bank",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13745&Mode=0",
+   "date": "2026-10-23",
+   "first_seen": "2026-10-23T17:11:29.644596+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/299",
+   "title": "Reserve Bank of India (Commercial Banks – Forthcoming Instructions) Second Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13744&Mode=0",
+   "date": "2026-10-23",
+   "first_seen": "2026-10-23T17:11:29.644596+00:00"
+  },
   {
    "source": "SEBI",
    "ref_no": null,
