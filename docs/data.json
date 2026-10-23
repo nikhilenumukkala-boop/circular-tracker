@@ -1,7 +1,25 @@
 {
- "last_updated": "2026-10-23T04:55:09.266717+00:00",
- "errors": {},
+ "last_updated": "2026-10-23T11:43:41.238454+00:00",
+ "errors": {
+  "AMFI": "HTTPSConnectionPool(host='www.amfiindia.com', port=443): Max retries exceeded with url: /distributor/amfi-circulars (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.amfiindia.com', port=443) at 0x7f069218a4e0>, 'Connection to www.amfiindia.com timed out. (connect timeout=30)'))"
+ },
  "circulars": [
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Review of regulatory requirement for maintenance of call records of institutional clients by Research Analysts or Research Entities",
+   "url": "https://www.sebi.gov.in/legal/circulars/oct-2026/review-of-regulatory-requirement-for-maintenance-of-call-records-of-institutional-clients-by-research-analysts-or-research-entities_105400.html",
+   "date": "2026-10-23",
+   "first_seen": "2026-10-23T11:43:41.238454+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/297",
+   "title": "Reserve Bank of India (Commercial Banks – Prudential Norms on Capital Adequacy) Eleventh Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13743&Mode=0",
+   "date": "2026-10-23",
+   "first_seen": "2026-10-23T11:43:41.238454+00:00"
+  },
   {
    "source": "SEBI",
    "ref_no": null,
