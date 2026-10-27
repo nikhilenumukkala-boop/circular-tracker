@@ -1,7 +1,31 @@
 {
- "last_updated": "2026-10-27T05:09:58.415533+00:00",
+ "last_updated": "2026-10-27T12:16:38.793158+00:00",
  "errors": {},
  "circulars": [
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Extension of timeline for compliance with terms and conditions by Debenture Trustees (DTs) for carrying out activities outside the purview of SEBI",
+   "url": "https://www.sebi.gov.in/legal/circulars/oct-2026/extension-of-timeline-for-compliance-with-terms-and-conditions-by-debenture-trustees-dts-for-carrying-out-activities-outside-the-purview-of-sebi_105454.html",
+   "date": "2026-10-27",
+   "first_seen": "2026-10-27T12:16:38.793158+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Da'esh) & Al-Qaida Sanctions List: Amendment of 03 Entries",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13748&Mode=0",
+   "date": null,
+   "first_seen": "2026-10-27T12:16:38.793158+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Da'esh) & Al-Qaida Sanctions List: Removal of 03 Entries",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13747&Mode=0",
+   "date": null,
+   "first_seen": "2026-10-27T12:16:38.793158+00:00"
+  },
   {
    "source": "RBI",
    "ref_no": "RBI/2026-27/300",
