@@ -1,8 +1,6 @@
 {
- "last_updated": "2026-11-01T22:04:50.083320+00:00",
- "errors": {
-  "RBI": "403 Client Error: Forbidden for url: https://www.rbi.org.in/notifications_rss.xml"
- },
+ "last_updated": "2026-11-02T06:11:09.067212+00:00",
+ "errors": {},
  "circulars": [
   {
    "source": "SEBI",
