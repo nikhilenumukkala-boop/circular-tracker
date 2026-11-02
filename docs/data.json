@@ -1,7 +1,31 @@
 {
- "last_updated": "2026-11-02T06:11:09.067212+00:00",
+ "last_updated": "2026-11-02T16:00:19.186132+00:00",
  "errors": {},
  "circulars": [
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Framework for Issuance of Depository Receipts on Units of REITs​",
+   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/framework-for-issuance-of-depository-receipts-on-units-of-reits-_105558.html",
+   "date": "2026-11-02",
+   "first_seen": "2026-11-02T16:00:19.186132+00:00"
+  },
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Framework for Issuance of Depository Receipts on Units of InvITs​",
+   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/framework-for-issuance-of-depository-receipts-on-units-of-invits-_105557.html",
+   "date": "2026-11-02",
+   "first_seen": "2026-11-02T16:00:19.186132+00:00"
+  },
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Cooling off period for offer for sale by Private listed InvITs",
+   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/cooling-off-period-for-offer-for-sale-by-private-listed-invits_105539.html",
+   "date": "2026-11-02",
+   "first_seen": "2026-11-02T16:00:19.186132+00:00"
+  },
   {
    "source": "SEBI",
    "ref_no": null,
