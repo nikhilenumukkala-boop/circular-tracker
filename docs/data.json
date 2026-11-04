@@ -1,7 +1,15 @@
 {
- "last_updated": "2026-11-04T06:29:18.000450+00:00",
+ "last_updated": "2026-11-04T19:47:54.410161+00:00",
  "errors": {},
  "circulars": [
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Review of Know Your Client process for individual Person Resident Outside India clients",
+   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/review-of-know-your-client-process-for-individual-person-resident-outside-india-clients_105603.html",
+   "date": "2026-11-04",
+   "first_seen": "2026-11-04T19:47:54.410161+00:00"
+  },
   {
    "source": "RBI",
    "ref_no": null,
