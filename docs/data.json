@@ -1,7 +1,39 @@
 {
- "last_updated": "2026-11-05T06:52:08.109412+00:00",
+ "last_updated": "2026-11-05T19:59:03.393230+00:00",
  "errors": {},
  "circulars": [
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Review of the framework for Accredited Investors",
+   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/review-of-the-framework-for-accredited-investors_105618.html",
+   "date": "2026-11-05",
+   "first_seen": "2026-11-05T19:59:03.393230+00:00"
+  },
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Framework for net settlement of funds for transactions undertaken by mutual fund schemes in cash market",
+   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/framework-for-net-settlement-of-funds-for-transactions-undertaken-by-mutual-fund-schemes-in-cash-market_105616.html",
+   "date": "2026-11-05",
+   "first_seen": "2026-11-05T19:59:03.393230+00:00"
+  },
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Revision of limits relating to requirement of underlying exposure for currency derivatives contracts",
+   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/revision-of-limits-relating-to-requirement-of-underlying-exposure-for-currency-derivatives-contracts_105614.html",
+   "date": "2026-11-05",
+   "first_seen": "2026-11-05T19:59:03.393230+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Master Directions on Cyber Resilience and Digital Payment Security Controls for non-bank Payment System Operators",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13751&Mode=0",
+   "date": null,
+   "first_seen": "2026-11-05T19:59:03.393230+00:00"
+  },
   {
    "source": "SEBI",
    "ref_no": null,
