@@ -1,6 +1,8 @@
 {
- "last_updated": "2026-11-07T06:01:53.911208+00:00",
- "errors": {},
+ "last_updated": "2026-11-07T13:10:15.104404+00:00",
+ "errors": {
+  "SEBI": "HTTPSConnectionPool(host='www.sebi.gov.in', port=443): Read timed out. (read timeout=30)"
+ },
  "circulars": [
   {
    "source": "SEBI",
