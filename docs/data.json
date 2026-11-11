@@ -1,7 +1,23 @@
 {
- "last_updated": "2026-11-11T06:28:51.705166+00:00",
+ "last_updated": "2026-11-11T19:38:11.050282+00:00",
  "errors": {},
  "circulars": [
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Reporting requirement under Foreign Account Tax Compliance Act (FATCA) and Common Reporting Standard (CRS) revised through Income-Tax Act, 2025 read with Income-Tax Rules, 2026",
+   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/reporting-requirement-under-foreign-account-tax-compliance-act-fatca-and-common-reporting-standard-crs-revised-through-income-tax-act-2025-read-with-income-tax-rules-2026_105705.html",
+   "date": "2026-11-11",
+   "first_seen": "2026-11-11T19:38:11.050282+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/DPSS/2026-27/476",
+   "title": "Reserve Bank of India (Domestic Money Transfer) Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13752&Mode=0",
+   "date": "2026-11-11",
+   "first_seen": "2026-11-11T19:38:11.050282+00:00"
+  },
   {
    "source": "SEBI",
    "ref_no": null,
