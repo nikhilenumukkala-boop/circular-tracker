@@ -1,6 +1,8 @@
 {
- "last_updated": "2026-11-13T19:45:11.036980+00:00",
- "errors": {},
+ "last_updated": "2026-11-14T06:30:35.390674+00:00",
+ "errors": {
+  "SEBI": "530 Server Error: BLOCKED for url: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0"
+ },
  "circulars": [
   {
    "source": "SEBI",
