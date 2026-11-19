@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-11-18T20:35:09.123735+00:00",
+ "last_updated": "2026-11-19T07:29:45.798919+00:00",
  "errors": {},
  "circulars": [
   {
@@ -1241,6 +1241,14 @@
    "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13652&Mode=0",
    "date": null,
    "first_seen": "2026-07-30T14:33:44.484191+00:00"
+  },
+  {
+   "source": "AMFI",
+   "ref_no": "CIR/ARN-33/2026-27",
+   "title": "Registration of MFD for distribution of Mutual funds Product and Specialized investment product under single examination viz. NISM – V D",
+   "url": "https://www.amfiindia.com/uploads/CIRARN_332026_27_28_Jul2026_24e9877a9d.pdf",
+   "date": "2026-07-28",
+   "first_seen": "2026-11-19T07:29:45.798919+00:00"
   },
   {
    "source": "SEBI",
