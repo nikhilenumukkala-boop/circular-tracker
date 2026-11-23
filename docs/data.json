@@ -1,7 +1,39 @@
 {
- "last_updated": "2026-11-23T07:43:50.875685+00:00",
+ "last_updated": "2026-11-23T23:56:31.937777+00:00",
  "errors": {},
  "circulars": [
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/307",
+   "title": "Reserve Bank of India (All India Financial Institutions - Securitisation Transactions) Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13756&Mode=0",
+   "date": "2026-11-23",
+   "first_seen": "2026-11-23T23:56:31.937777+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/306",
+   "title": "Reserve Bank of India (Non-Banking Financial Companies - Securitisation Transactions) Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13755&Mode=0",
+   "date": "2026-11-23",
+   "first_seen": "2026-11-23T23:56:31.937777+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/305",
+   "title": "Reserve Bank of India (Small Finance Banks - Securitisation Transactions) Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13754&Mode=0",
+   "date": "2026-11-23",
+   "first_seen": "2026-11-23T23:56:31.937777+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/304",
+   "title": "Reserve Bank of India (Commercial Banks - Securitisation Transactions) Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13753&Mode=0",
+   "date": "2026-11-23",
+   "first_seen": "2026-11-23T23:56:31.937777+00:00"
+  },
   {
    "source": "SEBI",
    "ref_no": null,
