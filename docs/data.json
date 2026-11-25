@@ -1,7 +1,23 @@
 {
- "last_updated": "2026-11-25T08:40:24.358061+00:00",
+ "last_updated": "2026-11-25T21:44:21.772190+00:00",
  "errors": {},
  "circulars": [
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Half-yearly review of -Significant Indices- under SEBI (Index Providers) Regulations, 2024",
+   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/half-yearly-review-of-significant-indices-under-sebi-index-providers-regulations-2024_105853.html",
+   "date": "2026-11-25",
+   "first_seen": "2026-11-25T21:44:21.772190+00:00"
+  },
+  {
+   "source": "SEBI",
+   "ref_no": null,
+   "title": "Simplification of client on-boarding and rationalisation of risk management framework at KYC Registration Agencies",
+   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/simplification-of-client-on-boarding-and-rationalisation-of-risk-management-framework-at-kyc-registration-agencies_105839.html",
+   "date": "2026-11-25",
+   "first_seen": "2026-11-25T21:44:21.772190+00:00"
+  },
   {
    "source": "RBI",
    "ref_no": "RBI/2026-27/307",
