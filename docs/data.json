@@ -1,7 +1,23 @@
 {
- "last_updated": "2026-11-25T21:44:21.772190+00:00",
+ "last_updated": "2026-11-26T08:24:37.405514+00:00",
  "errors": {},
  "circulars": [
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/309",
+   "title": "Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Da'esh) & Al-Qaida Sanctions List: Amendment of 01 Entry",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13758&Mode=0",
+   "date": "2026-11-26",
+   "first_seen": "2026-11-26T08:24:37.405514+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/308",
+   "title": "Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Da'esh) & Al-Qaida Sanctions List: Amendment of 81 entries",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13757&Mode=0",
+   "date": "2026-11-26",
+   "first_seen": "2026-11-26T08:24:37.405514+00:00"
+  },
   {
    "source": "SEBI",
    "ref_no": null,
