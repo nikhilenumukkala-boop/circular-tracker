@@ -1,7 +1,89 @@
 {
- "last_updated": "2026-11-27T08:39:17.441146+00:00",
- "errors": {},
+ "last_updated": "2026-11-27T21:22:48.940402+00:00",
+ "errors": {
+  "SEBI": "HTTPSConnectionPool(host='www.sebi.gov.in', port=443): Max retries exceeded with url: /sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0 (Caused by NameResolutionError(\"HTTPSConnection(host='www.sebi.gov.in', port=443): Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)\"))"
+ },
  "circulars": [
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (Payment Banks - Know Your Customer) Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13768&Mode=0",
+   "date": null,
+   "first_seen": "2026-11-27T21:22:48.940402+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (Urban Co-operative Banks - Know Your Customer) Second Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13767&Mode=0",
+   "date": null,
+   "first_seen": "2026-11-27T21:22:48.940402+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (Regional Rural Banks - Know Your Customer) Second Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13766&Mode=0",
+   "date": null,
+   "first_seen": "2026-11-27T21:22:48.940402+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (Local Area Banks - Know Your Customer) Second Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13765&Mode=0",
+   "date": null,
+   "first_seen": "2026-11-27T21:22:48.940402+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (Small Finance Banks - Know Your Customer) Second Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13764&Mode=0",
+   "date": null,
+   "first_seen": "2026-11-27T21:22:48.940402+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (Commercial Banks - Know Your Customer) Second Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13763&Mode=0",
+   "date": null,
+   "first_seen": "2026-11-27T21:22:48.940402+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (White Label ATM Operators) Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13762&Mode=0",
+   "date": null,
+   "first_seen": "2026-11-27T21:22:48.940402+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (Cash Withdrawal Transactions through Automated Teller Machines and Point of Sale Terminals) Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13761&Mode=0",
+   "date": null,
+   "first_seen": "2026-11-27T21:22:48.940402+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": null,
+   "title": "Reserve Bank of India (Digital Payments – Card-based transaction) Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13760&Mode=0",
+   "date": null,
+   "first_seen": "2026-11-27T21:22:48.940402+00:00"
+  },
+  {
+   "source": "RBI",
+   "ref_no": "RBI/2026-27/310",
+   "title": "Section 42(1) of the Reserve Bank of India Act, 1934 - Change in Daily Minimum Cash Reserve Maintenance Requirement",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13759&Mode=0",
+   "date": "2026-11-27",
+   "first_seen": "2026-11-27T21:22:48.940402+00:00"
+  },
   {
    "source": "RBI",
    "ref_no": "RBI/2026-27/309",
