@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-11-27T21:22:48.940402+00:00",
+ "last_updated": "2026-11-28T07:55:34.258724+00:00",
  "errors": {
   "SEBI": "HTTPSConnectionPool(host='www.sebi.gov.in', port=443): Max retries exceeded with url: /sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0 (Caused by NameResolutionError(\"HTTPSConnection(host='www.sebi.gov.in', port=443): Failed to resolve 'www.sebi.gov.in' ([Errno -3] Temporary failure in name resolution)\"))"
  },
